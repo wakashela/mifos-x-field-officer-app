@@ -281,7 +281,7 @@ internal fun NewIndividualCollectionSheetScreen(
                             generateCollection(
                                 officeId,
                                 staffId,
-                                DateHelper.getDateAsStringFromLong(repaymentDate),
+                                ApiDateFormatter.formatForApi(repaymentDate),
                             )
                         },
                         modifier = Modifier
