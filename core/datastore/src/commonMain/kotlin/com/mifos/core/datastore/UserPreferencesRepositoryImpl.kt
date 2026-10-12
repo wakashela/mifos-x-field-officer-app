@@ -14,6 +14,7 @@ import com.mifos.core.common.utils.ServerConfig
 import com.mifos.core.datastore.model.AppSettings
 import com.mifos.core.datastore.model.DarkThemeConfig
 import com.mifos.core.datastore.model.UserData
+import com.mifos.core.model.objects.LanguageConfig
 import com.mifos.core.model.objects.users.User
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope
@@ -67,6 +68,15 @@ class UserPreferencesRepositoryImpl(
     override suspend fun updateTheme(theme: DarkThemeConfig): DataState<Unit> {
         return try {
             val result = preferenceManager.updateTheme(theme)
+            DataState.Success(result)
+        } catch (e: Exception) {
+            DataState.Error(e)
+        }
+    }
+
+    override suspend fun updateLanguage(language: LanguageConfig): DataState<Unit> {
+        return try {
+            val result = preferenceManager.updateLanguage(language)
             DataState.Success(result)
         } catch (e: Exception) {
             DataState.Error(e)

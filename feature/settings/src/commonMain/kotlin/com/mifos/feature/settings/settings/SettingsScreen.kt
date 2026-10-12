@@ -45,7 +45,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import co.touchlab.kermit.Logger
 import com.mifos.core.common.enums.MifosAppLanguage
 import com.mifos.core.datastore.model.AppTheme
 import com.mifos.core.designsystem.component.MifosDialogBox
@@ -124,11 +123,7 @@ internal fun SettingsScreen(
             viewModel.updateTheme(it)
         },
         updateLanguage = {
-            val isSystemLanguage = viewModel.updateLanguage(it.code)
-            updateLanguageLocale(
-                language = it.code,
-                isSystemLanguage = isSystemLanguage,
-            )
+            viewModel.saveLanguage(it)
         },
         onClickUpdateConfig = onClickUpdateConfig,
     )
@@ -312,20 +307,6 @@ private fun SettingsCardItem(
             }
         }
     }
-}
-
-private fun updateLanguageLocale(language: String, isSystemLanguage: Boolean) {
-    Logger.d { "updateLanguageLocale: $language" }
-//    if (isSystemLanguage) {
-//        LanguageHelper.setLocale(context, language)
-//    } else {
-//        val systemLanguageCode = Locale.getDefault().language
-//        if (MifosAppLanguage.entries.find { it.code == systemLanguageCode } == null) {
-//            LanguageHelper.setLocale(context, MifosAppLanguage.ENGLISH.code)
-//        } else {
-//            LanguageHelper.setLocale(context, language)
-//        }
-//    }
 }
 
 @Composable

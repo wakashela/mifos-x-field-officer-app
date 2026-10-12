@@ -14,6 +14,7 @@ import com.mifos.core.common.utils.ServerConfig
 import com.mifos.core.datastore.model.AppSettings
 import com.mifos.core.datastore.model.DarkThemeConfig
 import com.mifos.core.datastore.model.UserData
+import com.mifos.core.model.objects.LanguageConfig
 import com.mifos.core.model.objects.users.User
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.StateFlow
@@ -38,4 +39,6 @@ interface UserPreferencesRepository {
     suspend fun updateUserInfo(user: UserData): DataState<Unit>
 
     suspend fun updateTheme(theme: DarkThemeConfig): DataState<Unit>
-}
+
+    suspend fun updateLanguage(language: LanguageConfig): DataState<Unit>
+}}

@@ -220,6 +220,20 @@ class SettingsViewModel(
         return (language == MifosAppLanguage.SYSTEM_LANGUAGE.code)
     }
 
+    fun saveLanguage(selection: MifosAppLanguage) {
+        viewModelScope.launch {
+            prefManager.updateLanguage(
+                when (selection) {
+                    MifosAppLanguage.SYSTEM_LANGUAGE -> LanguageConfig.DEFAULT
+                    else -> LanguageConfig.entries.find {
+                        it.localName == selection.code ||
+                            (selection == MifosAppLanguage.INDONESIAN && it == LanguageConfig.INDONESIAN)
+                    } ?: LanguageConfig.ENGLISH
+                },
+            )
+        }
+    }
+
     fun tryUpdatingEndpoint(selectedBaseUrl: String, selectedTenant: String): Boolean {
         val isEndpointUpdated =
             !(uiState.value.baseUrl == selectedBaseUrl && uiState.value.tenant == selectedTenant)

@@ -16,6 +16,7 @@ import com.mifos.core.datastore.model.DarkThemeConfig
 import com.mifos.core.model.objects.LanguageConfig
 import com.mifos.core.ui.util.BaseViewModel
 import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
@@ -46,6 +47,12 @@ class ComposeAppViewModel(
             .appTheme
             .onEach { trySendAction(AppAction.Internal.ThemeUpdate(it)) }
             .launchIn(viewModelScope)
+        userPreferencesRepository
+            .settingsInfo
+            .map { it.language }
+            .distinctUntilChanged()
+            .onEach { trySendAction(AppAction.AppSpecificLanguageUpdate(it)) }
+            .launchIn(viewModelScope)
     }
 
     override fun handleAction(action: AppAction) {
@@ -60,7 +67,9 @@ class ComposeAppViewModel(
 
     private fun handleAppSpecificLanguageUpdate(action: AppAction.AppSpecificLanguageUpdate) {
         viewModelScope.launch {
-//            userPreferencesRepository.setLanguage(action.appLanguage)
+            userPreferencesRepository.updateLanguage(action.appLanguage)
+            val tag = action.appLanguage.localName
+            sendEvent(AppEvent.UpdateAppLocale(localeName = tag))
         }
     }
 

@@ -149,6 +149,14 @@ class UserPreferencesDataSource(
             )
         }
     }
+
+    suspend fun updateLanguage(language: LanguageConfig) {
+        withContext(dispatcher) {
+            val current = _settingsInfo.value.copy(language = language)
+            settings.putSettingsPreference(current)
+            _settingsInfo.value = current
+        }
+    }
 }
 
 @OptIn(ExperimentalSerializationApi::class, ExperimentalSettingsApi::class)
