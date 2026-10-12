@@ -41,4 +41,4 @@ interface UserPreferencesRepository {
     suspend fun updateTheme(theme: DarkThemeConfig): DataState<Unit>
 
     suspend fun updateLanguage(language: LanguageConfig): DataState<Unit>
-}}
+}

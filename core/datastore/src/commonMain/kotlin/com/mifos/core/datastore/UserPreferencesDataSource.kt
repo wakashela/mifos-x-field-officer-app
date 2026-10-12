@@ -14,6 +14,7 @@ import com.mifos.core.common.utils.getInstanceUrl
 import com.mifos.core.datastore.model.AppSettings
 import com.mifos.core.datastore.model.DarkThemeConfig
 import com.mifos.core.datastore.model.UserData
+import com.mifos.core.model.objects.LanguageConfig
 import com.mifos.core.model.objects.users.User
 import com.russhwolf.settings.ExperimentalSettingsApi
 import com.russhwolf.settings.Settings
