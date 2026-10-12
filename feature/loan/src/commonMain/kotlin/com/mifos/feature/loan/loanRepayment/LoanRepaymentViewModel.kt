@@ -36,6 +36,7 @@ class LoanRepaymentViewModel(
 ) : ViewModel() {
 
     private val args = savedStateHandle.toRoute<LoanRepaymentScreenRoute>()
+    private var submitInFlight = false
     private val _loanDetailsState = MutableStateFlow(LoanDetails())
     val loanDetailsState = _loanDetailsState.asStateFlow()
 
@@ -123,6 +124,8 @@ class LoanRepaymentViewModel(
     }
 
     fun submitPayment(request: LoanRepaymentRequestEntity) {
+        if (submitInFlight) return
+        submitInFlight = true
         viewModelScope.launch {
             _loanRepaymentUiState.value = LoanRepaymentUiState.ShowProgressbar
 
@@ -133,6 +136,7 @@ class LoanRepaymentViewModel(
                         loanRepaymentResponse,
                     )
             } catch (e: Exception) {
+                submitInFlight = false
                 _loanRepaymentUiState.value =
                     LoanRepaymentUiState.ShowError(Res.string.feature_loan_payment_failed)
             }

@@ -14,6 +14,10 @@ import androidclient.feature.client.generated.resources.Res
 import androidclient.feature.client.generated.resources.add_icon
 import androidclient.feature.client.generated.resources.cash_bundel
 import androidclient.feature.client.generated.resources.client_loan_accounts_not_available
+import androidclient.feature.client.generated.resources.client_loan_type_glim
+import androidclient.feature.client.generated.resources.client_loan_type_group
+import androidclient.feature.client.generated.resources.client_loan_type_individual
+import androidclient.feature.client.generated.resources.client_loan_type_jlg
 import androidclient.feature.client.generated.resources.client_savings_item
 import androidclient.feature.client.generated.resources.feature_client_account_status
 import androidclient.feature.client.generated.resources.feature_client_dialog_action_ok
@@ -215,8 +219,19 @@ fun LoanAccountsList(
 }
 
 @Composable
-private fun LoanAccountItem(
-    loan: LoanAccountEntity,
+private fun loanTypeLabel(value: String?): String {
+    val notAvailable = stringResource(Res.string.client_loan_accounts_not_available)
+    return when (value) {
+        "Individual" -> stringResource(Res.string.client_loan_type_individual)
+        "Group" -> stringResource(Res.string.client_loan_type_group)
+        "JLG" -> stringResource(Res.string.client_loan_type_jlg)
+        "GLIM" -> stringResource(Res.string.client_loan_type_glim)
+        else -> value ?: notAvailable
+    }
+}
+
+@Composable
+private fun LoanAccountItem(    loan: LoanAccountEntity,
     onAction: (ClientLoanAccountsAction) -> Unit,
 ) {
     val symbol = loan.currency?.displaySymbol.orEmpty()
@@ -251,7 +266,7 @@ private fun LoanAccountItem(
             }
             ),
 
-        type = loan.loanType?.value ?: notAvailable,
+        type = loanTypeLabel(loan.loanType?.value),
 
         status = loan.status?.let { stringResource(it.toUiLoanStatus().label) } ?: notAvailable,
 
@@ -502,8 +517,7 @@ private fun FilterBottomSheet(
     }
 }
 
-private fun LoanStatusEntity?.toUiLoanStatus(): com.mifos.feature.loan.utils.UiLoanStatus {
-    if (this == null) return com.mifos.feature.loan.utils.UiLoanStatus.UNKNOWN
+private fun LoanStatusEntity?.toUiLoanStatus(): com.mifos.feature.loan.utils.UiLoanStatus {    if (this == null) return com.mifos.feature.loan.utils.UiLoanStatus.UNKNOWN
     return when {
         this.code == "loanStatusType.withdrawn.by.client" -> com.mifos.feature.loan.utils.UiLoanStatus.WITHDRAWN_BY_APPLICANT
         this.code == "loanStatusType.rejected" -> com.mifos.feature.loan.utils.UiLoanStatus.REJECTED

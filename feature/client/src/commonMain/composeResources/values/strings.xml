@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-    Copyright 2024 Mifos Initiative
-
-    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
-    If a copy of the MPL was not distributed with this file,
-    You can obtain one at https://mozilla.org/MPL/2.0/.
-
-    See https://github.com/openMF/mifos-x-field-officer-app/blob/master/LICENSE.md
--->
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="feature_client_failed_to_load_client">Failed To Load Clients</string>
     <string name="feature_client">Client</string>
@@ -245,25 +236,25 @@
 
     <string name="client_empty_card_message">Click Here To View Filled State.</string>
 
-    <!-- Client Products -->
+    
     <string name="client_product_saving_account">Savings Products</string>
     <string name="client_product_fixed_deposit_account">Fixed Deposit Products</string>
     <string name="client_product_recurring_deposit_account">Recurring Deposit Products</string>
     <string name="client_product_shares_account">Shares Products</string>
 
-    <!-- Client_Profile-General-Headers -->
+    
     <string name="client_profile_general_header_performance_history">Performance History</string>
     <string name="client_profile_general_header_actions">Actions</string>
     <string name="client_profile_general_header_linked_accounts">Linked Accounts</string>
 
-    <!-- Client_Profile-General-Performance History -->
+    
     <string name="client_performance_history_loan_cycle_count_label">No. Of Loan Cycles : </string>
     <string name="client_performance_history_active_loans_count_label">No. Of Active Loans : </string>
     <string name="client_performance_history_active_savings_label">No. of Active Savings : </string>
     <string name="client_performance_history_last_loan_amount_label">Last Loan Amount : </string>
     <string name="client_performance_history_total_savings_label">Total Savings : </string>
 
-    <!-- Client_Profile-General-Actions -->
+    
     <string name="client_profile_general_action_title_upcoming_charges">Upcoming Charges</string>
     <string name="client_profile_general_action_subtitle_upcoming_charges">Check all linked accounts</string>
     <string name="client_profile_general_action_title_loan_accounts">Loan Accounts</string>
@@ -279,12 +270,12 @@
     <string name="client_profile_general_action_title_collateral_data">Collateral Data</string>
     <string name="client_profile_general_action_subtitle_collateral_data">Check or update the account notes</string>
 
-    <!-- Client_Profile-Recurring Deposit Account Title -->
+    
     <string name="client_profile_recurring_deposit_account_title">Recurring Deposit Accounts</string>
-    <!-- Client_Profile-Fixed Deposit Account Title -->
+    
     <string name="client_profile_fixed_deposit_account_title">Fixed Deposit Accounts</string>
 
-    <!-- Client Documents -->
+    
     <string name="document_name">Document Name</string>
     <string name="add_document_title">Add Document</string>
     <string name="hint_document_name">Enter document name</string>
@@ -308,17 +299,17 @@
     <string name="returned_invalid_data_after_caching">File writing succeeded but returned invalid data.</string>
 
     <string name="unknown_error">Unknown error</string>
-    <!-- Personal Info -->
+    
     <string name="gender">Gender</string>
     <string name="date_of_birth">Date of Birth</string>
 
-    <!-- Account Info -->
+    
     <string name="account_no">Account No</string>
     <string name="office">Office</string>
     <string name="external_id">External Id</string>
     <string name="email_address">Email Address</string>
 
-    <!-- Other Info -->
+    
     <string name="legal_form">Legal Form</string>
     <string name="client_type">Client Type</string>
     <string name="client_classification">Client Classification</string>
@@ -326,18 +317,18 @@
     <string name="activation_date">Activation Date</string>
     <string name="staff">Staff</string>
 
-    <!-- Scaffold Title -->
+    
     <string name="client_profile_details_title">Client Profile Details</string>
 
-    <!-- Buttons -->
+    
     <string name="update_photo">Update Photo</string>
     <string name="update_signature">Update Signature</string>
     <string name="update_details">Update Details</string>
 
-    <!-- Scroll Hint -->
+    
     <string name="scroll_for_more_options">Scroll for More Options</string>
 
-    <!-- Action Item Titles -->
+    
     <string name="apply_new_application_title">Apply New Application</string>
     <string name="closure_application_title">Closure Application</string>
     <string name="transfer_client_title">Transfer Client</string>
@@ -350,7 +341,7 @@
     <string name="view_standing_instructions_title">View Standing Instructions</string>
     <string name="create_self_service_users_title">Create Self Service Users</string>
 
-    <!-- Action Item SubTitles -->
+    
     <string name="apply_new_application_subtitle">Create and apply for new accounts</string>
     <string name="closure_application_subtitle">Apply for ID closure</string>
     <string name="transfer_client_subtitle">Apply for transfer of the ID</string>
@@ -363,24 +354,24 @@
     <string name="view_standing_instructions_subtitle">View standing instruction over ID</string>
     <string name="create_self_service_users_subtitle">Change the status of ID to self service</string>
 
-    <!-- Client Profile Edit -->
+    
     <string name="edit_profile_title">Edit Profile</string>
     <string name="account_number_prefix">Acc. No. %1$s</string>
     <string name="update_profile_photo_message">Please update your profile photo at earliest!</string>
     <string name="delete_photo">Delete Photo</string>
     <string name="upload_new_photo">Upload New Photo</string>
 
-    <!-- Delete Confirmation Dialog -->
+    
     <string name="delete_dialog_message">Please confirm that you want to remove the photo? You can upload the new photo again through the app or website.</string>
     <string name="remove">Remove</string>
     <string name="cancel">Cancel</string>
     <string name="delete_dialog_identifier_message">Are you sure you want to delete this document with ID %1$s?</string>
 
-    <!-- Document Delete Confirmation Dialog -->
+    
     <string name="delete_dialog_title">Are you sure?</string>
     <string name="document_delete_dialog_message">Please confirm that you want to delete this document?</string>
 
-    <!-- Upload Options -->
+    
     <string name="choose_from_option">Choose from option</string>
     <string name="camera">Camera</string>
     <string name="gallery">Gallery</string>
@@ -393,24 +384,24 @@
     <string name="group_na">N/A</string>
     <string name="group_label">Group:</string>
 
-    <!-- Titles -->
+    
     <string name="title_client_assign_staff">Client Assign Staff</string>
     <string name="title_unassign_staff">Unassigning staff?</string>
 
-    <!-- Dialogs -->
+    
     <string name="dialog_unassign_message">This client already has a staff member assigned.Do you want to unassign the staff for this client?Once unassigned, a new staff member can only be assigned again after a few minutes.</string>
     <string name="confirm_text">I Confirm</string>
     <string name="dismiss_text">Cancel</string>
     <string name="dialog_continue">Continue</string>
 
-    <!-- Assign Staff Screen -->
+    
     <string name="label_assign_staff">Assign Staff</string>
     <string name="label_choose_staff">Choose the service staff</string>
     <string name="btn_back">Back</string>
     <string name="btn_submit">Submit</string>
     <string name="msg_cannot_assign_staff">Can't Assign a Staff to this client</string>
 
-    <!-- ShowAddressList & Failure Messages -->
+    
     <string name="staff_unassign_success_title">Staff Unassigned Successfully!!</string>
     <string name="staff_unassign_success_message">Your request was completed successfully.</string>
     <string name="staff_unassign_failure_title">Staff Unassigning Failed!</string>
@@ -418,31 +409,31 @@
     <string name="staff_assign_success_message">Your request was completed successfully.</string>
     <string name="staff_assign_failure_title">Staff Assigning Failed!</string>
 
-    <!-- Client Transfer Screen -->
+    
     <string name="client_transfer_title">Client Transfer</string>
     <string name="client_transfer_choose_office">Choose Destination Office</string>
     <string name="client_transfer_expected_date">Expected Transfer Date</string>
     <string name="client_transfer_add_notes">Add Notes</string>
     <string name="client_transfer_add_note_here">Add Note Here</string>
 
-    <!-- Status Dialog -->
+    
     <string name="client_transfer_success_title">Transfer Request Sent</string>
     <string name="client_transfer_success_message">Transfer Request Sent Successfully. Please Continue to get back to Profile Details Screen</string>
     <string name="client_transfer_failure_title">Transfer Failed!</string>
 
-    <!-- Update Default Account Dialog -->
+    
     <string name="update_default_account_choose">Choose Default Savings Account</string>
     <string name="update_default_account_failure_title">Failed to update default account</string>
     <string name="update_default_account_success_message">Default account updated successfully. Please Continue to get back to Profile Details Screen</string>
     <string name="update_default_account_success_title">Update Successful</string>
     <string name="update_default_no_accounts_found">No Savings Accounts found for this client</string>
 
-    <!-- Client Edit Details -->
+    
     <string name="client_details_updated">Client Details Updated</string>
     <string name="client_details_updated_success_message">The client details has been updated successfully. Please Continue to get back to Home</string>
     <string name="client_details_update_failure_title">Client Details Update Failed</string>
 
-    <!-- Client Closure -->
+    
     <string name="client_closure_success_title">Client Closure Successful</string>
     <string name="client_closure_success_message">The client account has been closed successfully. Please Continue to get back to Home</string>
     <string name="client_closure_failure_title">Client Closure Failed</string>
@@ -487,7 +478,7 @@
     <string name="client_identifiers_retry">Retry</string>
     <string name="client_identifiers_identities_client_identifier_deletion_success">Successfully deleted client identifier with id</string>
 
-    <!-- Apply New Applications Screen -->
+    
     <string name="client_apply_new_applications_title">Choose Application Type</string>
     <string name="client_apply_new_applications_loan_account">New Loan Account</string>
     <string name="client_apply_new_applications_savings_account">New Savings Account</string>
@@ -510,7 +501,7 @@
     <string name="create_recurring_deposit_account">Create Recurring Deposit Account</string>
 
 
-    <!-- Client Signature -->
+    
     <string name="client_signature_delete">Delete Signature</string>
     <string name="client_signature_upload">Upload New Signature</string>
     <string name="client_signature_not_found">No Signature Found!</string>
@@ -520,21 +511,21 @@
     <string name="client_signature_draw">Draw</string>
     <string name="client_signature_more">More</string>
 
-    <!-- Client Loan Accounts-->
+    
     <string name="client_loan_accounts_not_available">Not Available</string>
 
-    <!-- Client Share Account-->
+    
     <string name="client_share_accounts_share_accounts">Share Accounts</string>
     <string name="client_share_accounts_an_error_occurred">An error occurred</string>
     <string name="client_share_accounts_failed_to_fetch_share_accounts">Failed to fetch share accounts</string>
     <string name="client_share_accounts_try_again">Try again</string>
 
-    <!-- Client Upcoming Charges-->
+    
     <string name="client_upcoming_charges_failed_message">Failed to get upcoming charges</string>
     <string name="client_upcoming_charges_no_more_charges_available">No more charges available!</string>
     <string name="client_upcoming_charges_charges_overview">Charges Overview</string>
 
-    <!-- Client Identifier-->
+    
     <string name="client_identifier_title">Add Identifiers</string>
     <string name="client_identifier_document_type">Document Type*</string>
     <string name="client_identifier_status">Status*</string>
@@ -552,16 +543,16 @@
     <string name="client_identifier_document_not_found">Document not found</string>
     <string name="client_identifier_btn_update">Update</string>
     <string name="client_update_document_title">Update Document</string>
-    <!-- Screen Title -->
+    
     <string name="title_new_fixed_deposit_account">New Fixed Deposit Account</string>
     <string name="title_new_recurring_deposit_account">New Recurring Deposit Account</string>
-    <!-- New Fixed Deposit Account -->
+    
     <string name="one_year_fixed_deposit">1 Year Fixed Deposit</string>
     <string name="submission_on">Submission On</string>
     <string name="field_officer">Field Officer</string>
 
 
-    <!-- Create Share Account -->
+    
     <string name="feature_share_account_details">Details</string>
     <string name="feature_share_account_terms">Terms</string>
     <string name="feature_share_account_charges">Charges</string>
@@ -603,15 +594,15 @@
     <string name="feature_share_account_charge_click_on_add_new">Click on Add New to Add Charge</string>
 
 
-    <!-- Handle Error-->
+    
     <string name="feature_share_account_field_empty">This field cannot be empty</string>
 
-    <!-- Charges -->
+    
     <string name="charges_update">Update</string>
     <string name="charges_view_charges">View Charges</string>
     <string name="charges_client_update_not_support_error_msg">Updating client charges is not supported. Please delete the existing charge and create a new one.</string>
 
-    <!--Fixed Deposit Account -->
+    
     <string name="feature_fixed_deposit_deposit_amount">Deposit Amount</string>
     <string name="feature_fixed_deposit_deposit_period_type">Deposit Period Type</string>
     <string name="feature_fixed_interest_compounding">Interest Compounding</string>
@@ -651,14 +642,14 @@
     <string name="feature_fixed_deposit_interest_empty_date">Date Not Found</string>
     <string name="feature_fixed_account_created_successfully">Share account created successfully</string>
 
-    <!-- Empty list handling -->
+    
     <string name="feature_share_account_empty_list_message">No Share Account Found</string>
     <string name="feature_fixed_account_empty_list_message">No Fixed Deposit Account Found</string>
     <string name="feature_recurring_account_empty_list_message">No Recurring Deposit Account Found</string>
     <string name="feature_savings_account_empty_list_message">No Savings Account Found</string>
     <string name="feature_loan_account_empty_list_message">No Loan Account Found</string>
 
-    <!-- Filters -->
+    
     <string name="feature_client_filters">Filters</string>
     <string name="feature_client_account_status">Account Status</string>
     <string name="feature_client_status_active">Active</string>
@@ -667,4 +658,4 @@
     <string name="feature_client_status_waiting">Waiting for Disbursal</string>
     <string name="feature_client_status_pending">Pending Approval</string>
 
-</resources>
+<string name="client_loan_type_individual">Individual</string><string name="client_loan_type_group">Group</string><string name="client_loan_type_jlg">JLG</string><string name="client_loan_type_glim">GLIM</string></resources>

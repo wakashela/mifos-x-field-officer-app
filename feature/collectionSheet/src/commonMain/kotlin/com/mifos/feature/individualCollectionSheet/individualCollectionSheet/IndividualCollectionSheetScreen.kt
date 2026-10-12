@@ -13,6 +13,8 @@ package com.mifos.feature.individualCollectionSheet.individualCollectionSheet
 
 import androidclient.feature.collectionsheet.generated.resources.Res
 import androidclient.feature.collectionsheet.generated.resources.feature_collection_sheet_individual_collection_sheet
+import androidclient.feature.collectionsheet.generated.resources.feature_collection_sheet_tab_new
+import androidclient.feature.collectionsheet.generated.resources.feature_collection_sheet_tab_saved
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -43,10 +45,10 @@ internal fun IndividualCollectionSheetScreen(
     )
 
     val tabContents = listOf(
-        TabContent(IndividualCollectionSheetScreenContents.NEW.name) {
+        TabContent(stringResource(Res.string.feature_collection_sheet_tab_new)) {
             NewIndividualCollectionSheetScreen(onDetail = onDetail)
         },
-        TabContent(IndividualCollectionSheetScreenContents.SAVED.name) {
+        TabContent(stringResource(Res.string.feature_collection_sheet_tab_saved)) {
             SavedIndividualCollectionSheetCompose()
         },
     )

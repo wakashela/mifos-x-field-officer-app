@@ -258,17 +258,17 @@
     <string name="client_profile_general_action_title_upcoming_charges">Tozo Zijazo</string>
     <string name="client_profile_general_action_subtitle_upcoming_charges">Angalia akaunti zote</string>
     <string name="client_profile_general_action_title_loan_accounts">Akaunti za Mikopo</string>
-    <string name="client_profile_general_action_subtitle_loan_accounts">Angalia au hariri anwani</string>
+    <string name="client_profile_general_action_subtitle_loan_accounts">Angalia akaunti za mikopo ya mteja</string>
     <string name="client_profile_general_action_title_saving_account">Akaunti za Akiba</string>
-    <string name="client_profile_general_action_subtitle_saving_account">Angalia au hariri akaunti</string>
+    <string name="client_profile_general_action_subtitle_saving_account">Angalia akaunti za akiba</string>
     <string name="client_profile_general_action_title_fixed_deposit_accounts">Akaunti za Amana</string>
-    <string name="client_profile_general_action_subtitle_fixed_deposit_accounts">Angalia au sasisha vitambulisho</string>
+    <string name="client_profile_general_action_subtitle_fixed_deposit_accounts">Angalia akaunti za amana</string>
     <string name="client_profile_general_action_title_recurring_deposit_accounts">Akaunti za Amana za Mara kwa Mara</string>
-    <string name="client_profile_general_action_subtitle_recurring_deposit_accounts">Angalia au pakia nyaraka</string>
+    <string name="client_profile_general_action_subtitle_recurring_deposit_accounts">Angalia akaunti za amana za mara kwa mara</string>
     <string name="client_profile_general_action_title_shares_accounts">Akaunti za Hisa</string>
-    <string name="client_profile_general_action_subtitle_shares_accounts">Angalia au sasisha vidokezo</string>
+    <string name="client_profile_general_action_subtitle_shares_accounts">Angalia akaunti za hisa</string>
     <string name="client_profile_general_action_title_collateral_data">Taarifa za Dhamana</string>
-    <string name="client_profile_general_action_subtitle_collateral_data">Angalia au sasisha vidokezo</string>
+    <string name="client_profile_general_action_subtitle_collateral_data">Angalia taarifa za dhamana</string>
 
     
     <string name="client_profile_recurring_deposit_account_title">Akaunti za Amana za Mara kwa Mara</string>
@@ -658,4 +658,4 @@
     <string name="feature_client_status_waiting">Inasubiri Utoaji</string>
     <string name="feature_client_status_pending">Inasubiri Idhini</string>
 
-</resources>
+<string name="client_loan_type_individual">Binafsi</string><string name="client_loan_type_group">Kikundi</string><string name="client_loan_type_jlg">JLG</string><string name="client_loan_type_glim">GLIM</string></resources>

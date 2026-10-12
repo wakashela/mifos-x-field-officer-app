@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-    Copyright 2024 Mifos Initiative
-
-    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
-    If a copy of the MPL was not distributed with this file,
-    You can obtain one at https://mozilla.org/MPL/2.0/.
-
-    See https://github.com/openMF/mifos-x-field-officer-app/blob/master/LICENSE.md
--->
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="feature_collection_sheet_no_saved_collection_sheet">No Saved Collection Sheet</string>
     <string name="feature_collection_sheet_fill_collection_sheet_message">Please fill in appropriate details to find the collection sheet to generate.</string>
@@ -64,4 +55,4 @@
     <string name="feature_collection_sheet_productive_sheet_submitted">Productive Sheet Submitted Successfully</string>
     <string name="feature_collection_sheet_collection_sheet_submitted">Collection Sheet Submitted Successfully</string>
 
-</resources>
+<string name="feature_collection_sheet_tab_new">New</string><string name="feature_collection_sheet_tab_saved">Saved</string></resources>

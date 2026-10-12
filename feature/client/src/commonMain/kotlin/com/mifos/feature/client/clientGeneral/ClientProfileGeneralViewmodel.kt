@@ -141,7 +141,7 @@ internal class ClientProfileGeneralViewmodel(
 }
 
 data class ClientProfileGeneralState(
-    val currency: String = "$",
+    val currency: String = "TSh",
     val client: ClientEntity? = null,
     val performanceHistory: PerformanceHistory = PerformanceHistory(),
     val dialogState: DialogState? = null,
