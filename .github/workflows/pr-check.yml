@@ -65,11 +65,11 @@
 name: PR Checks
 
 # Trigger conditions for the workflow
+# NOTE (fork): push trigger removed so routine pushes only run the lean
+# `build-debug-apk.yml` job. Full matrix still runs on pull requests.
 on:
-  push:
-    branches: [ dev, development ]
   pull_request:
-    branches: [ dev, development ]  # Runs on pushes to dev branch
+    branches: [ dev, development ]
 
 # Concurrency settings to prevent multiple simultaneous workflow runs
 concurrency:

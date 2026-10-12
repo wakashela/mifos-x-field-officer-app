@@ -33,5 +33,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: field-officer-debug-apk
-          path: cmp-android/build/outputs/apk/debug/*.apk
+          path: cmp-android/build/outputs/apk/**/*.apk
           if-no-files-found: error
