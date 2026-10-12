@@ -1,62 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Swahili scaffold: all values below are ENGLISH placeholders.
-     Translators: replace each value in place with Kiswahili.
-     Keys must not change. Missing keys fall back to English at runtime. -->
-<!--
-    Copyright 2024 Mifos Initiative
-
-    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
-    If a copy of the MPL was not distributed with this file,
-    You can obtain one at https://mozilla.org/MPL/2.0/.
-
-    See https://github.com/openMF/mifos-x-field-officer-app/blob/master/LICENSE.md
--->
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="feature_settings_close_bottomsheet">CloseBottomSheetIcon</string>
-    <string name="feature_settings_update_config_btn_text">Update Config</string>
-    <string name="feature_settings_use_localhost_btn_text">Use Localhost</string>
-    <string name="feature_settings_use_default_config_btn_text">Reset to default</string>
-    <string name="feature_settings_note_text">The application will restart after a successful configuration update.</string>
+    <string name="feature_settings_close_bottomsheet">Funga</string>
+    <string name="feature_settings_update_config_btn_text">Sasisha Config</string>
+    <string name="feature_settings_use_localhost_btn_text">Tumia Localhost</string>
+    <string name="feature_settings_use_default_config_btn_text">Rudisha chaguo-msingi</string>
+    <string name="feature_settings_note_text">App itaanza upya baada ya kusasisha config.</string>
 
-    <string name="feature_settings">Settings</string>
-    <string name="feature_settings_sync_survey">Sync Survey</string>
-    <string name="feature_settings_sync_survey_desc">Click to Sync Survey</string>
-    <string name="feature_settings_language">Language</string>
-    <string name="feature_settings_language_desc">Select your preferred language</string>
-    <string name="feature_settings_theme">Theme</string>
-    <string name="feature_settings_theme_desc">Select theme</string>
-    <string name="feature_settings_change_passcode">Change Passcode</string>
-    <string name="feature_settings_change_passcode_desc">Change App Passcode</string>
-    <string name="feature_settings_enable_biometrics">Enable biometrics</string>
-    <string name="feature_settings_disable_biometrics">Disable biometrics</string>
-    <string name="feature_settings_enable_disable_biometrics">Enable/Disable Biometrics</string>
-    <string name="feature_settings_enable_disable_biometrics_desc">Enable/Disable Biometrics</string>
-    <string name="feature_settings_biometrics_not_set">Biometrics not set up on this device</string>
-    <string name="feature_settings_biometrics_not_available">Biometrics not available on this device</string>
-    <string name="feature_settings_biometrics_registration_error">Biometrics Registration Error</string>
-    <string name="feature_settings_verification_expired">Verification expired. Please try again.</string>
-    <string name="feature_settings_instance_url">Instance URL</string>
-    <string name="feature_settings_instance_url_desc">Update Instance URL</string>
-    <string name="feature_settings_server_config">Server Config</string>
-    <string name="feature_settings_server_config_desc">Update Server Config</string>
-    <string name="feature_settings_choose_language">Choose Language</string>
-    <string name="feature_settings_change_app_theme">Change App Theme</string>
-    <string name="feature_settings_error_network_not_available">Network is not Available</string>
-    <string name="feature_settings_sync_success">Successfully Synced</string>
+    <string name="feature_settings">Mipangilio</string>
+    <string name="feature_settings_sync_survey">Sawazisha Utafiti</string>
+    <string name="feature_settings_sync_survey_desc">Bonyeza Kusawazisha Utafiti</string>
+    <string name="feature_settings_language">Lugha</string>
+    <string name="feature_settings_language_desc">Chagua lugha unayopendelea</string>
+    <string name="feature_settings_theme">Mandhari</string>
+    <string name="feature_settings_theme_desc">Chagua mandhari</string>
+    <string name="feature_settings_change_passcode">Badilisha Namba ya Siri</string>
+    <string name="feature_settings_change_passcode_desc">Badilisha Namba ya Siri ya App</string>
+    <string name="feature_settings_enable_biometrics">Wezesha alama</string>
+    <string name="feature_settings_disable_biometrics">Zima alama</string>
+    <string name="feature_settings_enable_disable_biometrics">Wezesha/Zima Alama</string>
+    <string name="feature_settings_enable_disable_biometrics_desc">Wezesha/Zima Alama</string>
+    <string name="feature_settings_biometrics_not_set">Alama hazijawekwa kwenye kifaa</string>
+    <string name="feature_settings_biometrics_not_available">Alama hazipatikani kwenye kifaa</string>
+    <string name="feature_settings_biometrics_registration_error">Hitilafu ya Usajili wa Alama</string>
+    <string name="feature_settings_verification_expired">Uthibitishaji umekwisha. Jaribu tena.</string>
+    <string name="feature_settings_instance_url">URL ya Seva</string>
+    <string name="feature_settings_instance_url_desc">Sasisha URL ya Seva</string>
+    <string name="feature_settings_server_config">Config ya Seva</string>
+    <string name="feature_settings_server_config_desc">Sasisha Config ya Seva</string>
+    <string name="feature_settings_choose_language">Chagua Lugha</string>
+    <string name="feature_settings_change_app_theme">Badilisha Mandhari ya App</string>
+    <string name="feature_settings_error_network_not_available">Hakuna mtandao</string>
+    <string name="feature_settings_sync_success">Imesawazishwa</string>
     <string name="feature_settings_space" translatable="false">" "</string>
-    <string name="feature_settings_surveys">Surveys</string>
+    <string name="feature_settings_surveys">Tafiti</string>
     <string name="feature_settings_slash" translatable="false">/</string>
-    <string name="feature_settings_cancel">Cancel</string>
-    <string name="feature_settings_failed_sync">Sync Failed</string>
-    <string name="feature_settings_hide">Hide</string>
-    <string name="feature_settings_total_sync_progress">Total Sync Progress</string>
-    <string name="feature_settings_syncing_response">Syncing Response</string>
-    <string name="feature_settings_syncing_question">Syncing Question</string>
-    <string name="feature_settings_syncing_survey">Syncing Surveys</string>
-    <string name="feature_settings_total">Total</string>
-    <string name="feature_settings_name">Name</string>
-    <string name="feature_settings_restart">Restarting the app in %1$d seconds</string>
-    <string name="feature_settings_sync_surveys_full_information">Sync Surveys All Information</string>
+    <string name="feature_settings_cancel">Ghairi</string>
+    <string name="feature_settings_failed_sync">Usawazishaji Umeshindikana</string>
+    <string name="feature_settings_hide">Ficha</string>
+    <string name="feature_settings_total_sync_progress">Maendeleo ya Usawazishaji</string>
+    <string name="feature_settings_syncing_response">Inasawazisha Majibu</string>
+    <string name="feature_settings_syncing_question">Inasawazisha Maswali</string>
+    <string name="feature_settings_syncing_survey">Inasawazisha Tafiti</string>
+    <string name="feature_settings_total">Jumla</string>
+    <string name="feature_settings_name">Jina</string>
+    <string name="feature_settings_restart">App inaanza upya baada ya sekunde %1$d</string>
+    <string name="feature_settings_sync_surveys_full_information">Sawazisha Taarifa Zote za Tafiti</string>
 
 
     <string-array name="feature_settings_languages" translatable="false">

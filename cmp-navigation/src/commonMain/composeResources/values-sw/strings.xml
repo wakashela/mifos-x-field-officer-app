@@ -1,37 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Swahili scaffold: all values below are ENGLISH placeholders.
-     Translators: replace each value in place with Kiswahili.
-     Keys must not change. Missing keys fall back to English at runtime. -->
-<!--
-    Copyright 2024 Mifos Initiative
-
-    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
-    If a copy of the MPL was not distributed with this file,
-    You can obtain one at https://mozilla.org/MPL/2.0/.
-
-    See https://github.com/openMF/mifos-x-field-officer-app/blob/master/LICENSE.md
--->
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="cmp_navigation_no_internet">You are not connected to the Internet!</string>
+    <string name="cmp_navigation_no_internet">Huna mtandao!</string>
 
     <string name="cmp_navigation_mifos">Mifos</string>
-    <string name="cmp_navigation_search">Search</string>
-    <string name="cmp_navigation_clients">Clients</string>
-    <string name="cmp_navigation_center">Centers</string>
-    <string name="cmp_navigation_groups">Groups</string>
+    <string name="cmp_navigation_search">Tafuta</string>
+    <string name="cmp_navigation_clients">Wateja</string>
+    <string name="cmp_navigation_center">Vituo</string>
+    <string name="cmp_navigation_groups">Vikundi</string>
 
-    <string name="checker_inbox_tasks">Checker Inbox Tasks</string>
-    <string name="collection_sheet">Collection Sheet</string>
-    <string name="run_reports">Run Reports</string>
-    <string name="path_tracker">Path Tracker</string>
-    <string name="settings">Settings</string>
-    <string name="about">About</string>
-    <string name="offline_sync">Offline Sync</string>
-    <string name="powered_by">Powered By</string>
+    <string name="checker_inbox_tasks">Kisanduku cha Mkaguzi</string>
+    <string name="collection_sheet">Fomu ya Makusanyo</string>
+    <string name="run_reports">Tumia Ripoti</string>
+    <string name="path_tracker">Fuatilia Njia</string>
+    <string name="settings">Mipangilio</string>
+    <string name="about">Kuhusu</string>
+    <string name="offline_sync">Sawazisha Nje ya Mtandao</string>
+    <string name="powered_by">Imewezeshwa na</string>
 
-    <string name="cmp_navigation_profile_header">Profile header</string>
-    <string name="cmp_navigation_dp_placeholder">DP</string>
-    <string name="cmp_navigation_address">Address</string>
+    <string name="cmp_navigation_profile_header">Kichwa cha Wasifu</string>
+    <string name="cmp_navigation_dp_placeholder">Picha</string>
+    <string name="cmp_navigation_address">Anwani</string>
 
 
 </resources>

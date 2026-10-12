@@ -1,34 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Swahili scaffold: all values below are ENGLISH placeholders.
-     Translators: replace each value in place with Kiswahili.
-     Keys must not change. Missing keys fall back to English at runtime. -->
-<!--
-    Copyright 2024 Mifos Initiative
-
-    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
-    If a copy of the MPL was not distributed with this file,
-    You can obtain one at https://mozilla.org/MPL/2.0/.
-
-    See https://github.com/openMF/mifos-x-field-officer-app/blob/master/LICENSE.md
--->
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="search_record_generic_searchLabel">Search Records</string>
-    <string name="search_record_search_icon_desc">Search</string>
-    <string name="search_record_clear_icon_desc">Clear</string>
-    <string name="search_record_input_placeholder">Search...</string>
-    <string name="search_record_address">Address</string>
-    <string name="search_record_identifiers">Identifiers</string>
-    <string name="search_record_empty_state">Enter a query to find records</string>
-    <string name="search_record_no_results_title">No results found</string>
-    <string name="search_record_no_results_description">Try a different search term for "%1$s"</string>
-    <string name="search_record_error">Error</string>
-    <string name="error_searching_records">An error occurred while searching</string>
-    <string name="search_record_address_line_1">Address Line 1</string>
-    <string name="search_record_address_line_2">Address Line 2</string>
-    <string name="search_record_address_line_3">Address Line 3</string>
-    <string name="search_record_city">City</string>
-    <string name="search_record_province">Province/State</string>
-    <string name="search_record_country">Country</string>
-    <string name="search_record_postal_code">Postal Code</string>
-    <string name="search_record_label_format">Search %1$s</string>
+    <string name="search_record_generic_searchLabel">Tafuta Rekodi</string>
+    <string name="search_record_search_icon_desc">Tafuta</string>
+    <string name="search_record_clear_icon_desc">Futa</string>
+    <string name="search_record_input_placeholder">Tafuta...</string>
+    <string name="search_record_address">Anwani</string>
+    <string name="search_record_identifiers">Vitambulisho</string>
+    <string name="search_record_empty_state">Ingiza neno kutafuta rekodi</string>
+    <string name="search_record_no_results_title">Hakuna matokeo</string>
+    <string name="search_record_no_results_description">Jaribu neno tofauti kwa "%1$s"</string>
+    <string name="search_record_error">Hitilafu</string>
+    <string name="error_searching_records">Hitilafu imetokea wakati wa kutafuta</string>
+    <string name="search_record_address_line_1">Mtaa 1</string>
+    <string name="search_record_address_line_2">Mtaa 2</string>
+    <string name="search_record_address_line_3">Mtaa 3</string>
+    <string name="search_record_city">Jiji</string>
+    <string name="search_record_province">Mkoa</string>
+    <string name="search_record_country">Nchi</string>
+    <string name="search_record_postal_code">Namba ya Posta</string>
+    <string name="search_record_label_format">Tafuta %1$s</string>
 </resources>

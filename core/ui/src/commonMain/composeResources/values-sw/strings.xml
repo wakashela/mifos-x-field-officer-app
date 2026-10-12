@@ -1,133 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Swahili scaffold: all values below are ENGLISH placeholders.
-     Translators: replace each value in place with Kiswahili.
-     Keys must not change. Missing keys fall back to English at runtime. -->
-<!--
-    Copyright 2025 Mifos Initiative
-
-    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
-    If a copy of the MPL was not distributed with this file,
-    You can obtain one at https://mozilla.org/MPL/2.0/.
-
-    See https://github.com/openMF/mifos-x-field-officer-app/blob/master/LICENSE.md
--->
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="core_ui_no_internet">No Internet</string>
-    <string name="core_ui_retry">Retry</string>
-    <string name="core_ui_no_data">No Data</string>
-    <string name="core_ui_something_went_wrong">Something went wrong</string>
-    <string name="core_ui_core_common_working">Core Common Working</string>
-    <string name="core_ui_click_to_add_new">Click to add new</string>
+    <string name="core_ui_no_internet">Hakuna Mtandao</string>
+    <string name="core_ui_retry">Jaribu tena</string>
+    <string name="core_ui_no_data">Hakuna Taarifa</string>
+    <string name="core_ui_something_went_wrong">Hitilafu imetokea</string>
+    <string name="core_ui_core_common_working">Msingi Inafanya Kazi</string>
+    <string name="core_ui_click_to_add_new">Bonyeza kuongeza mpya</string>
 
-    <!-- Mifos Client Fee -->
-    <string name="core_ui_name">Name</string>
-    <string name="core_ui_due_as_of">Due as of</string>
-    <string name="core_ui_due">Due</string>
-    <string name="core_ui_paid">Paid</string>
-    <string name="core_ui_waived">Waived</string>
-    <string name="core_ui_outstanding">Outstanding</string>
+    
+    <string name="core_ui_name">Jina</string>
+    <string name="core_ui_due_as_of">Inadaiwa hadi</string>
+    <string name="core_ui_due">Inayodaiwa</string>
+    <string name="core_ui_paid">Imelipwa</string>
+    <string name="core_ui_waived">Iliosamehewa</string>
+    <string name="core_ui_outstanding">Salio</string>
 
-    <!-- Mifos Loan -->
-    <string name="core_ui_account_no">Account No</string>
-    <string name="core_ui_loan_product">Loan Product</string>
-    <string name="core_ui_original_loan">Original Loan</string>
-    <string name="core_ui_amount_paid">Amount Paid</string>
-    <string name="core_ui_loan_balance">Loan Balance</string>
-    <string name="core_ui_type">Type</string>
+    
+    <string name="core_ui_account_no">Namba ya Akaunti</string>
+    <string name="core_ui_loan_product">Aina ya Mkopo</string>
+    <string name="core_ui_original_loan">Mkopo Asili</string>
+    <string name="core_ui_amount_paid">Kiasi Kilicholipwa</string>
+    <string name="core_ui_loan_balance">Salio la Mkopo</string>
+    <string name="core_ui_type">Aina</string>
 
-    <!-- Mifos Loan PDF export Strings -->
-    <string name="feature_pdf_generation_date">Generation Date</string>
-    <string name="powered_by">Powered By</string>
+    
+    <string name="feature_pdf_generation_date">Tarehe ya Kutengenezwa</string>
+    <string name="powered_by">Imewezeshwa na</string>
 
-    <!-- Mifos Savings -->
-    <string name="core_ui_savings_product">Savings Product</string>
-    <string name="core_ui_last_active">Last Active</string>
-    <string name="core_ui_balance">Balance</string>
+    
+    <string name="core_ui_savings_product">Bidhaa ya Akiba</string>
+    <string name="core_ui_last_active">Mara ya Mwisho</string>
+    <string name="core_ui_balance">Salio</string>
 
-    <!-- Mifos Collateral -->
-    <string name="core_ui_quantity">Quantity</string>
-    <string name="core_ui_total_value">Total Value</string>
-    <string name="core_ui_total_collateral_value">Total Collateral Value</string>
+    
+    <string name="core_ui_quantity">Idadi</string>
+    <string name="core_ui_total_value">Jumla ya Thamani</string>
+    <string name="core_ui_total_collateral_value">Jumla ya Thamani ya Dhamana</string>
 
-    <!-- Mifos Identifier -->
-    <string name="core_ui_document_type">Document Type</string>
-    <string name="core_ui_document_id">Document ID</string>
-    <string name="core_ui_document_key">Document Key</string>
-    <string name="core_ui_status">Status</string>
-    <string name="core_ui_description">Description</string>
-    <string name="core_ui_identify_documents">Identify Documents</string>
+    
+    <string name="core_ui_document_type">Aina ya Waraka</string>
+    <string name="core_ui_document_id">Kitambulisho cha Waraka</string>
+    <string name="core_ui_document_key">Ufunguo wa Waraka</string>
+    <string name="core_ui_status">Hali</string>
+    <string name="core_ui_description">Maelezo</string>
+    <string name="core_ui_identify_documents">Tambua Nyaraka</string>
 
-    <!-- Mifos Delinquency -->
-    <string name="core_ui_action">Action</string>
-    <string name="core_ui_pause">Pause</string>
-    <string name="core_ui_resume">Resume</string>
-    <string name="core_ui_start_date">Start Date</string>
-    <string name="core_ui_end_date">End Date</string>
+    
+    <string name="core_ui_action">Kitendo</string>
+    <string name="core_ui_pause">Simamisha</string>
+    <string name="core_ui_resume">Endelea</string>
+    <string name="core_ui_start_date">Tarehe ya Kuanza</string>
+    <string name="core_ui_end_date">Tarehe ya Mwisho</string>
 
-    <!-- Mifos Charges -->
-    <string name="core_ui_calculation_type">Calculation Type</string>
-    <string name="core_ui_title_processing_fee">Processing Fee</string>
+    
+    <string name="core_ui_calculation_type">Aina ya Hesabu</string>
+    <string name="core_ui_title_processing_fee">Ada ya Uchakataji</string>
 
-    <!-- Mifos Sell Loan -->
-    <string name="core_ui_cancelled">Cancelled</string>
-    <string name="core_ui_completed">Completed</string>
-    <string name="core_ui_pending">Pending</string>
-    <string name="core_ui_effective_from">Effective From</string>
-    <string name="core_ui_owner_external_id">Owner External ID</string>
-    <string name="core_ui_transfer_external_id">Transfer External ID</string>
-    <string name="core_ui_settlement_date">Settlement Date</string>
-    <string name="core_ui_purchase_price_ratio">Purchase Price Ratio</string>
+    
+    <string name="core_ui_cancelled">Imeghairiwa</string>
+    <string name="core_ui_completed">Imekamilika</string>
+    <string name="core_ui_pending">Inasubiri</string>
+    <string name="core_ui_effective_from">Inaanza</string>
+    <string name="core_ui_owner_external_id">Kitambulisho cha Nje cha Mmiliki</string>
+    <string name="core_ui_transfer_external_id">Kitambulisho cha Nje cha Uhamisho</string>
+    <string name="core_ui_settlement_date">Tarehe ya Malizano</string>
+    <string name="core_ui_purchase_price_ratio">Uwiano wa Bei ya Ununuzi</string>
 
-    <string name="core_ui_click_here_to_view_filled_state">Click Here To View Filled State.</string>
-    <string name="core_ui_no_item_found">No Item Found</string>
+    <string name="core_ui_click_here_to_view_filled_state">Bonyeza Hapa Kutazama.</string>
+    <string name="core_ui_no_item_found">Hakuna Kipengee</string>
 
-    <!-- Action Names -->
-    <string name="core_ui_view_account">View Account</string>
-    <string name="core_ui_edit_note">Edit Note</string>
-    <string name="core_ui_delete_note">Delete Note</string>
-    <string name="core_ui_approve_account">Approve Account</string>
-    <string name="core_ui_make_repayment">Make Repayment</string>
-    <string name="core_ui_view_document">View Document</string>
-    <string name="core_ui_upload_again">Upload Again</string>
-    <string name="core_ui_delete_document">Delete Document</string>
-    <string name="core_ui_pay_outstanding_amount">Pay Outstanding Amount</string>
-    <string name="core_ui_edit">Edit</string>
-    <string name="core_ui_delete">Delete</string>
-    <string name="core_ui_transfer_fund">Transfer Fund</string>
+    
+    <string name="core_ui_view_account">Tazama Akaunti</string>
+    <string name="core_ui_edit_note">Hariri Dokezo</string>
+    <string name="core_ui_delete_note">Futa Dokezo</string>
+    <string name="core_ui_approve_account">Idhinisha Akaunti</string>
+    <string name="core_ui_make_repayment">Fanya Malipo</string>
+    <string name="core_ui_view_document">Tazama Waraka</string>
+    <string name="core_ui_upload_again">Pakia Tena</string>
+    <string name="core_ui_delete_document">Futa Waraka</string>
+    <string name="core_ui_pay_outstanding_amount">Lipa Salio lote</string>
+    <string name="core_ui_edit">Hariri</string>
+    <string name="core_ui_delete">Futa</string>
+    <string name="core_ui_transfer_fund">Hamisha Fedha</string>
 
-    <!-- Mifos Note -->
-    <string name="core_ui_note_createdBy">Created By:</string>
-    <string name="core_ui_note_date">Date</string>
-    <string name="core_ui_note_note">Note</string>
+    
+    <string name="core_ui_note_createdBy">Imetengenezwa na:</string>
+    <string name="core_ui_note_date">Tarehe</string>
+    <string name="core_ui_note_note">Dokezo</string>
 
-    <!-- MifosActionsIdentifierListingComponent -->
-    <string name="listing_component_identifier_not_available">Not Available</string>
+    
+    <string name="listing_component_identifier_not_available">Haipatikani</string>
 
-    <!-- Mifos Client Documents-->
-    <string name="client_documents_component_header_title">Document Name</string>
-    <string name="client_documents_component_header_subtitle_description">Description</string>
-    <string name="client_documents_component_header_subtitle_file_name">File Name</string>
+    
+    <string name="client_documents_component_header_title">Jina la Waraka</string>
+    <string name="client_documents_component_header_subtitle_description">Maelezo</string>
+    <string name="client_documents_component_header_subtitle_file_name">Jina la Faili</string>
 
-    <!-- MifosFilePickerBottomSheet -->
-    <string name="file_picker_bottom_sheet_gallery">Gallery</string>
-    <string name="file_picker_bottom_sheet_files">Files</string>
-    <string name="file_picker_bottom_sheet_more">More</string>
+    
+    <string name="file_picker_bottom_sheet_gallery">Matunzio</string>
+    <string name="file_picker_bottom_sheet_files">Faili</string>
+    <string name="file_picker_bottom_sheet_more">Zaidi</string>
 
-    <string name="error_field_empty">This field cannot be empty</string>
-    <string name="error_invalid_characters">This field contains invalid characters</string>
-    <string name="error_invalid_number">Invalid number entered</string>
-    <string name="error_digits_only">This field should contain digits only</string>
-    <string name="error_number_zero">Number should not be zero</string>
+    <string name="error_field_empty">Kipengee hiki kisiachwe wazi</string>
+    <string name="error_invalid_characters">Kipengee kina herufi zisizoruhusiwa</string>
+    <string name="error_invalid_number">Namba si sahihi</string>
+    <string name="error_digits_only">Kipengee kiwe tarakimu tu</string>
+    <string name="error_number_zero">Namba isiswe sifuri</string>
 
-    <string name="ok">Ok</string>
-    <string name="cancel">Cancel</string>
-    <string name="name">Name</string>
-    <string name="date">Date</string>
-    <string name="amount">Amount</string>
-    <string name="type">Type</string>
-    <string name="collected_on">Collected On</string>
+    <string name="ok">Sawa</string>
+    <string name="cancel">Ghairi</string>
+    <string name="name">Jina</string>
+    <string name="date">Tarehe</string>
+    <string name="amount">Kiasi</string>
+    <string name="type">Aina</string>
+    <string name="collected_on">Imekusanywa Tarehe</string>
 
-    <string name="client_share_accounts_share_product">Share Product</string>
-    <string name="client_share_accounts_pending_for_approval_shares">Pending For Approval Shares</string>
-    <string name="client_share_accounts_approved_shares">Approved Shares</string>
+    <string name="client_share_accounts_share_product">Bidhaa ya Hisa</string>
+    <string name="client_share_accounts_pending_for_approval_shares">Hisa Zinazosubiri Idhini</string>
+    <string name="client_share_accounts_approved_shares">Hisa Zilizoidhinishwa</string>
 </resources>

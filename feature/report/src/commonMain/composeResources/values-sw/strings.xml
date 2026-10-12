@@ -1,52 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Swahili scaffold: all values below are ENGLISH placeholders.
-     Translators: replace each value in place with Kiswahili.
-     Keys must not change. Missing keys fall back to English at runtime. -->
-<!--
-    Copyright 2024 Mifos Initiative
-
-    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
-    If a copy of the MPL was not distributed with this file,
-    You can obtain one at https://mozilla.org/MPL/2.0/.
-
-    See https://github.com/openMF/mifos-x-field-officer-app/blob/master/LICENSE.md
--->
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
 
-    <string name="feature_report_failed_to_fetch_reports">Failed to Fetch Reports</string>
-    <string name="feature_report_client">Client</string>
-    <string name="feature_report_loan">Loan</string>
-    <string name="feature_report_savings">Savings</string>
-    <string name="feature_report_fund">Fund</string>
-    <string name="feature_report_accounting">Accounting</string>
+    <string name="feature_report_failed_to_fetch_reports">Imeshindikana Kupata Ripoti</string>
+    <string name="feature_report_client">Mteja</string>
+    <string name="feature_report_loan">Mkopo</string>
+    <string name="feature_report_savings">Akiba</string>
+    <string name="feature_report_fund">Mfuko</string>
+    <string name="feature_report_accounting">Uhasibu</string>
     <string name="feature_report_xbrl">XBRL</string>
-    <string name="feature_report_all">All</string>
+    <string name="feature_report_all">Zote</string>
 
-    <string name="feature_report_no_reports_found">No Reports Found</string>
+    <string name="feature_report_no_reports_found">Hakuna Ripoti</string>
 
-    <string name="feature_report_details">Report Details</string>
-    <string name="feature_report_loan_officer">Loan Officer</string>
-    <string name="feature_report_office">Office</string>
-    <string name="feature_report_product">Product</string>
-    <string name="feature_report_loan_purpose">Loan Purpose</string>
-    <string name="feature_report_currency">Currency</string>
-    <string name="feature_report_par_type">Par type</string>
-    <string name="feature_report_saving_account">Saving Account</string>
-    <string name="feature_report_gl_account">GL Account</string>
-    <string name="feature_report_obligation_date">Obligation Date</string>
-    <string name="feature_report_failed_to_load_report_details">Failed to Load Report Details</string>
-    <string name="feature_report_run_report">Run Report</string>
-    <string name="feature_report_title">Report</string>
-    <string name="feature_report_export_csv">Export CSV</string>
+    <string name="feature_report_details">Maelezo ya Ripoti</string>
+    <string name="feature_report_loan_officer">Afisa Mikopo</string>
+    <string name="feature_report_office">Ofisi</string>
+    <string name="feature_report_product">Bidhaa</string>
+    <string name="feature_report_loan_purpose">Kusudi la Mkopo</string>
+    <string name="feature_report_currency">Sarafu</string>
+    <string name="feature_report_par_type">Aina ya Par</string>
+    <string name="feature_report_saving_account">Akaunti ya Akiba</string>
+    <string name="feature_report_gl_account">Akaunti ya GL</string>
+    <string name="feature_report_obligation_date">Tarehe ya Wajibu</string>
+    <string name="feature_report_failed_to_load_report_details">Imeshindikana Kupakia Maelezo ya Ripoti</string>
+    <string name="feature_report_run_report">Tumia Ripoti</string>
+    <string name="feature_report_title">Ripoti</string>
+    <string name="feature_report_export_csv">Hamisha CSV</string>
     <string name="feature_report_export_csv_directory">/mifos/documents/report/</string>
 
-    <string name="feature_report_permission_required">Permissions Required</string>
-    <string name="feature_report_external_approve_permission_description">You need to approve these permissions in order to Save.</string>
-    <string name="feature_report_proceed">Proceed</string>
-    <string name="feature_report_dismiss">Dismiss</string>
+    <string name="feature_report_permission_required">Ruhusa Zinahitajika</string>
+    <string name="feature_report_external_approve_permission_description">Ruhusu hizi ili Kuhifadhi.</string>
+    <string name="feature_report_proceed">Endelea</string>
+    <string name="feature_report_dismiss">Funga</string>
 
-    <string name="feature_report_unable_to_create_directory">Unable to create directory</string>
-    <string name="feature_report_unable_to_export">Unable to Export</string>
-    <string name="feature_report_exported_successfully">Exported Successfully</string>
-    <string name="feature_report_export_started">Export Started</string>
+    <string name="feature_report_unable_to_create_directory">Imeshindikana kutengeneza folda</string>
+    <string name="feature_report_unable_to_export">Imeshindikana Kuhamisha</string>
+    <string name="feature_report_exported_successfully">Imehamishwa</string>
+    <string name="feature_report_export_started">Kuhamisha Kumaanza</string>
 </resources>

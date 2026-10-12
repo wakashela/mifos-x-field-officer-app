@@ -1,673 +1,661 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Swahili scaffold: all values below are ENGLISH placeholders.
-     Translators: replace each value in place with Kiswahili.
-     Keys must not change. Missing keys fall back to English at runtime. -->
-<!--
-    Copyright 2024 Mifos Initiative
-
-    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
-    If a copy of the MPL was not distributed with this file,
-    You can obtain one at https://mozilla.org/MPL/2.0/.
-
-    See https://github.com/openMF/mifos-x-field-officer-app/blob/master/LICENSE.md
--->
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="feature_client_failed_to_load_client">Failed To Load Clients</string>
-    <string name="feature_client">Client</string>
-    <string name="feature_client_failed_to_load_db_clients">Failed to load Database Clients</string>
-    <string name="feature_client_no_more_clients_available">No more Clients Available!</string>
+    <string name="feature_client_failed_to_load_client">Imeshindikana Kupakia Wateja</string>
+    <string name="feature_client">Mteja</string>
+    <string name="feature_client_failed_to_load_db_clients">Imeshindikana kupakia wateja wa kwenye kifaa</string>
+    <string name="feature_client_no_more_clients_available">Hakuna Wateja Wengine!</string>
 
-    <string name="no_internet_message">No internet connection, Try Again</string>
+    <string name="no_internet_message">Hakuna mtandao, Jaribu Tena</string>
 
-    <string name="feature_client_personal_details">Personal Details</string>
-    <string name="feature_client_account_information">Account Information</string>
-    <string name="feature_client_office_use">Office Use</string>
-    <string name="feature_client_error">Error</string>
-    <string name="feature_client_account_number">Account Number</string>
-    <string name="feature_client_external_id">External ID</string>
-    <string name="feature_client_activation_date">Activation Date</string>
-    <string name="feature_client_office">Office</string>
-    <string name="feature_client_phone_no">Phone Number</string>
-    <string name="feature_client_group">Group</string>
-    <string name="feature_client_loan_account">Loan Accounts</string>
-    <string name="feature_client_savings_account">Savings Accounts</string>
-    <string name="feature_client_accounts">Accounts</string>
-    <string name="feature_client_no_savings_accounts_found">No Savings Accounts found for this client</string>
+    <string name="feature_client_personal_details">Taarifa Binafsi</string>
+    <string name="feature_client_account_information">Taarifa za Akaunti</string>
+    <string name="feature_client_office_use">Matumizi ya Ofisi</string>
+    <string name="feature_client_error">Hitilafu</string>
+    <string name="feature_client_account_number">Namba ya Akaunti</string>
+    <string name="feature_client_external_id">Kitambulisho cha Nje</string>
+    <string name="feature_client_activation_date">Tarehe ya Kuanzishwa</string>
+    <string name="feature_client_office">Ofisi</string>
+    <string name="feature_client_phone_no">Namba ya Simu</string>
+    <string name="feature_client_group">Kikundi</string>
+    <string name="feature_client_loan_account">Akaunti za Mikopo</string>
+    <string name="feature_client_savings_account">Akaunti za Akiba</string>
+    <string name="feature_client_accounts">Akaunti</string>
+    <string name="feature_client_no_savings_accounts_found">Hakuna akaunti za akiba za mteja huyu</string>
 
-    <string name="feature_client_upload_signature">Upload Signature</string>
-    <string name="feature_client_survey">Survey</string>
-    <string name="feature_client_pinpoint_location">Pinpoint location</string>
-    <string name="feature_client_notes">Notes</string>
-    <string name="feature_client_more_client_info">More client info</string>
-    <string name="feature_client_identifiers">Identifiers</string>
-    <string name="feature_client_documents">Documents</string>
-    <string name="feature_client_charges">Charges</string>
-    <string name="feature_client_add_savings_account">Add Savings Account</string>
-    <string name="feature_client_add_loan_account">Add Loan Account</string>
+    <string name="feature_client_upload_signature">Pakia Sahihi</string>
+    <string name="feature_client_survey">Utafiti</string>
+    <string name="feature_client_pinpoint_location">Bainisha Mahali</string>
+    <string name="feature_client_notes">Vidokezo</string>
+    <string name="feature_client_more_client_info">Taarifa zaidi za mteja</string>
+    <string name="feature_client_identifiers">Vitambulisho</string>
+    <string name="feature_client_documents">Nyaraka</string>
+    <string name="feature_client_charges">Tozo</string>
+    <string name="feature_client_add_savings_account">Ongeza Akaunti ya Akiba</string>
+    <string name="feature_client_add_loan_account">Ongeza Akaunti ya Mkopo</string>
 
-    <string name="feature_client_client_image_updated">Client Image Uploaded successfully</string>
-    <string name="feature_client_client_image_deleted">Client Image Deleted Successfully</string>
-    <string name="feature_client_activate_client">Activate Client</string>
-    <string name="feature_client_client_not_found">Client Not Found</string>
-    <string name="feature_client_please_select">Please Select</string>
-    <string name="feature_client_take_new_image">Take new image</string>
-    <string name="feature_client_upload_new_image">Upload new image</string>
-    <string name="feature_client_delete_image">Delete Image</string>
+    <string name="feature_client_client_image_updated">Picha ya mteja imepakiwa</string>
+    <string name="feature_client_client_image_deleted">Picha ya mteja imefutwa</string>
+    <string name="feature_client_activate_client">Washa Mteja</string>
+    <string name="feature_client_client_not_found">Mteja Hajapatikana</string>
+    <string name="feature_client_please_select">Tafadhali Chagua</string>
+    <string name="feature_client_take_new_image">Piga picha mpya</string>
+    <string name="feature_client_upload_new_image">Pakia picha mpya</string>
+    <string name="feature_client_delete_image">Futa Picha</string>
 
-    <string name="feature_client_failed_to_load_client_identifiers">Failed to load client identifiers</string>
-    <string name="feature_client_failed_to_delete_identifier">Failed to delete identifier</string>
-    <string name="feature_client_there_is_no_identifier_to_show">There is no identifier to show</string>
-    <string name="feature_client_id">Id</string>
-    <string name="feature_client_type">Type</string>
-    <string name="feature_client_description">Description</string>
-    <string name="feature_client_remove">Remove</string>
-    <string name="feature_client_identifier_deleted_successfully">Identifier Deleted Successfully</string>
-    <string name="feature_client_failed_to_load_client_charges">Failed To Load Client Charges</string>
-    <string name="feature_client_charge_id">Charge Id</string>
-    <string name="feature_client_choose_charge">Choose Charge</string>
-    <string name="feature_client_charge_title">Charge Title</string>
-    <string name="feature_client_charge_name">Charge Name</string>
-    <string name="feature_client_charge_amount">Amount</string>
-    <string name="feature_client_due_date">Due Date</string>
-    <string name="feature_client_collected_on_date">Collected On</string>
-    <string name="feature_client_charge_invalid_amount_format">Invalid amount format</string>
-    <string name="feature_client_no_more_charges_available">No More Charges Available!</string>
-    <string name="feature_client_failed_to_load_more_charges">Failed to load more Charges</string>
+    <string name="feature_client_failed_to_load_client_identifiers">Imeshindikana kupakia vitambulisho</string>
+    <string name="feature_client_failed_to_delete_identifier">Imeshindikana kufuta kitambulisho</string>
+    <string name="feature_client_there_is_no_identifier_to_show">Hakuna kitambulisho cha kuonyesha</string>
+    <string name="feature_client_id">Kitambulisho</string>
+    <string name="feature_client_type">Aina</string>
+    <string name="feature_client_description">Maelezo</string>
+    <string name="feature_client_remove">Ondoa</string>
+    <string name="feature_client_identifier_deleted_successfully">Kitambulisho kimefutwa</string>
+    <string name="feature_client_failed_to_load_client_charges">Imeshindikana Kupakia Tozo za Mteja</string>
+    <string name="feature_client_charge_id">Kitambulisho cha Tozo</string>
+    <string name="feature_client_choose_charge">Chagua Tozo</string>
+    <string name="feature_client_charge_title">Kichwa cha Tozo</string>
+    <string name="feature_client_charge_name">Jina la Tozo</string>
+    <string name="feature_client_charge_amount">Kiasi</string>
+    <string name="feature_client_due_date">Tarehe ya Malipo</string>
+    <string name="feature_client_collected_on_date">Imekusanywa Tarehe</string>
+    <string name="feature_client_charge_invalid_amount_format">Muundo wa kiasi si sahihi</string>
+    <string name="feature_client_no_more_charges_available">Hakuna Tozo Nyingine!</string>
+    <string name="feature_client_failed_to_load_more_charges">Imeshindikana kupakia tozo zaidi</string>
 
-    <string name="feature_client_permission_required">Permissions Required</string>
-    <string name="feature_client_approve_permission_description_location">You need to approve these permissions in order to access Location.</string>
-    <string name="feature_client_proceed">Proceed</string>
-    <string name="feature_client_dismiss">Dismiss</string>
-    <string name="feature_client_failed_to_load_pinpoint">Failed To Load Pinpoint Location</string>
-    <string name="feature_client_failed_to_add_pinpoint">Failed To Add Pinpoint Location</string>
-    <string name="feature_client_failed_to_delete_pinpoint">Failed To Delete Pinpoint Location</string>
-    <string name="feature_client_failed_to_update_pinpoint">Failed To Update Pinpoint Location</string>
-    <string name="feature_client_pinpoint_location_added">Pinpoint Location Added Successfully</string>
-    <string name="feature_client_pinpoint_location_deleted">Pinpoint Location Deleted Successfully</string>
-    <string name="feature_client_pinpoint_location_updated">Pinpoint Location Updated Successfully</string>
-    <string name="feature_client_pinpoint_client">Pinpoint Client</string>
-    <string name="feature_client_client_locations">Client Locations</string>
-    <string name="feature_client_add_location">Add location</string>
+    <string name="feature_client_permission_required">Ruhusa Zinahitajika</string>
+    <string name="feature_client_approve_permission_description_location">Ruhusu hizi ili kutumia Mahali.</string>
+    <string name="feature_client_proceed">Endelea</string>
+    <string name="feature_client_dismiss">Funga</string>
+    <string name="feature_client_failed_to_load_pinpoint">Imeshindikana Kupakia Mahali</string>
+    <string name="feature_client_failed_to_add_pinpoint">Imeshindikana Kuongeza Mahali</string>
+    <string name="feature_client_failed_to_delete_pinpoint">Imeshindikana Kufuta Mahali</string>
+    <string name="feature_client_failed_to_update_pinpoint">Imeshindikana Kusasisha Mahali</string>
+    <string name="feature_client_pinpoint_location_added">Mahali pameongezwa</string>
+    <string name="feature_client_pinpoint_location_deleted">Mahali pamefutwa</string>
+    <string name="feature_client_pinpoint_location_updated">Mahali pamesasishwa</string>
+    <string name="feature_client_pinpoint_client">Bainisha Mteja</string>
+    <string name="feature_client_client_locations">Mahali pa Mteja</string>
+    <string name="feature_client_add_location">Ongeza mahali</string>
 
-    <string name="feature_client_update_client_address">Update Address</string>
-    <string name="feature_client_delete_client_address">Delete Address</string>
-    <string name="feature_client_no_pinpoint_found">No Pinpoint Found</string>
-    <string name="feature_client_no_location_data_found">No location data found</string>
+    <string name="feature_client_update_client_address">Sasisha Anwani</string>
+    <string name="feature_client_delete_client_address">Futa Anwani</string>
+    <string name="feature_client_no_pinpoint_found">Hakuna Mahali Pamepatikana</string>
+    <string name="feature_client_no_location_data_found">Hakuna taarifa za mahali</string>
 
-    <string name="feature_client_charge_select">Select</string>
-    <string name="feature_client_charge_cancel">Cancel</string>
-    <string name="feature_client_charge_dialog">Create Charge</string>
-    <string name="feature_client_message_field_required">Field Required</string>
-    <string name="feature_client_charge_created_successfully">Charge Created Successfully</string>
-    <string name="feature_client_charge_submit">Submit</string>
-    <string name="feature_client_charge_locale">Locale</string>
-    <string name="feature_client_failed_to_load_charges">Failed To Load Charges</string>
-    <string name="feature_client_failed_to_create_charge">Failed To Create Charge</string>
-    <string name="feature_client_created_charge_success_title">Charge Added Successfully</string>
-    <string name="feature_client_created_charge_failure_title">Charge Creation Failed</string>
-    <string name="feature_client_created_charge_success_message">Client Charge created successfully. Please continue to go back to Profile Details</string>
-    <string name="feature_client_no_charges_found">No Charges Found</string>
+    <string name="feature_client_charge_select">Chagua</string>
+    <string name="feature_client_charge_cancel">Ghairi</string>
+    <string name="feature_client_charge_dialog">Tengeneza Tozo</string>
+    <string name="feature_client_message_field_required">Kipengee kinahitajika</string>
+    <string name="feature_client_charge_created_successfully">Tozo imetengenezwa</string>
+    <string name="feature_client_charge_submit">Tuma</string>
+    <string name="feature_client_charge_locale">Lugha</string>
+    <string name="feature_client_failed_to_load_charges">Imeshindikana Kupakia Tozo</string>
+    <string name="feature_client_failed_to_create_charge">Imeshindikana Kutengeneza Tozo</string>
+    <string name="feature_client_created_charge_success_title">Tozo Imeongezwa</string>
+    <string name="feature_client_created_charge_failure_title">Kutengeneza Tozo Kumeshindikana</string>
+    <string name="feature_client_created_charge_success_message">Tozo ya mteja imetengenezwa. Rudi kwenye Wasifu</string>
+    <string name="feature_client_no_charges_found">Hakuna Tozo Zilizopatikana</string>
 
-    <string name="feature_client_failed_to_add_signature">Failed To Add Signature</string>
-    <string name="feature_client_signature_empty">Signature Should Not Be Empty</string>
-    <string name="feature_client_signature_title">Signature</string>
-    <string name="feature_client_signature_uploaded_successfully">Signature uploaded successfully</string>
-    <string name="feature_client_signature_reset">Reset</string>
-    <string name="feature_client_signature_gallery">Gallery</string>
+    <string name="feature_client_failed_to_add_signature">Imeshindikana Kuongeza Sahihi</string>
+    <string name="feature_client_signature_empty">Sahihi isiachwe wazi</string>
+    <string name="feature_client_signature_title">Sahihi</string>
+    <string name="feature_client_signature_uploaded_successfully">Sahihi imepakiwa</string>
+    <string name="feature_client_signature_reset">Weka Upya</string>
+    <string name="feature_client_signature_gallery">Matunzio</string>
 
-    <string name="feature_client_surveys">Surveys</string>
-    <string name="feature_client_no_survey_available_for_client">No survey available for client</string>
-    <string name="feature_client_select_one_survey">Select one survey</string>
-    <string name="feature_client_failed_to_fetch_datatable">Failed to fetch datatable</string>
-    <string name="feature_client_failed_to_fetch_surveys_list">Failed to fetch surveys list</string>
-    <string name="feature_client_failed_to_load_db_question_data">Failed to load db question data</string>
-    <string name="feature_client_survey_successfully_submitted">Survey successfully submitted</string>
-    <string name="feature_client_failed_to_submit_survey">Failed to submit survey</string>
-    <string name="feature_client_scorecard_created_successfully">Scorecard created successfully</string>
-    <string name="feature_client_submit_survey">Submit Survey</string>
-    <string name="feature_client_next">Next</string>
-    <string name="feature_client_please_attempt_at_least_one_question">Please attempt at least one question</string>
+    <string name="feature_client_surveys">Tafiti</string>
+    <string name="feature_client_no_survey_available_for_client">Hakuna utafiti kwa mteja huyu</string>
+    <string name="feature_client_select_one_survey">Chagua utafiti mmoja</string>
+    <string name="feature_client_failed_to_fetch_datatable">Imeshindikana kupata jedwali la data</string>
+    <string name="feature_client_failed_to_fetch_surveys_list">Imeshindikana kupata orodha ya tafiti</string>
+    <string name="feature_client_failed_to_load_db_question_data">Imeshindikana kupakia maswali</string>
+    <string name="feature_client_survey_successfully_submitted">Utafiti umewasilishwa</string>
+    <string name="feature_client_failed_to_submit_survey">Imeshindikana kuwasilisha utafiti</string>
+    <string name="feature_client_scorecard_created_successfully">Scorecard imetengenezwa</string>
+    <string name="feature_client_submit_survey">Wasilisha Utafiti</string>
+    <string name="feature_client_next">Endelea</string>
+    <string name="feature_client_please_attempt_at_least_one_question">Tafadhali jibu swali angalau moja</string>
 
-    <string name="feature_client_something_went_wrong">Something went wrong</string>
-    <string name="feature_client_sync_clients_full_information"> Sync Clients All Information </string>
-    <string name="feature_client_name">Name</string>
-    <string name="feature_client_total">Total</string>
-    <string name="feature_client_clients">Clients</string>
+    <string name="feature_client_something_went_wrong">Hitilafu imetokea</string>
+    <string name="feature_client_sync_clients_full_information">Sawazisha Taarifa Zote za Wateja</string>
+    <string name="feature_client_name">Jina</string>
+    <string name="feature_client_total">Jumla</string>
+    <string name="feature_client_clients">Wateja</string>
     <string name="feature_client_space" translatable="false">" "</string>
-    <string name="feature_client_syncing_client">Syncing Client</string>
-    <string name="feature_client_total_sync_progress">Total Sync Progress</string>
+    <string name="feature_client_syncing_client">Inasawazisha Mteja</string>
+    <string name="feature_client_total_sync_progress">Maendeleo ya Usawazishaji</string>
     <string name="feature_client_slash" translatable="false">/</string>
-    <string name="feature_client_failed_sync">Sync Failed</string>
-    <string name="feature_client_dialog_action_ok">OK</string>
-    <string name="feature_client_cancel">Cancel</string>
-    <string name="feature_client_hide">Hide</string>
-    <string name="feature_client_go_back">Go Back</string>
-    <string name="feature_client_no_staff_associated_with_office">No Staff associated with this Office</string>
-    <string name="feature_client_error_network_not_available">Network is not Available</string>
-    <string name="feature_client_permissions_required">Permissions Required</string>
-    <string name="feature_client_please_grant_us_the_following_permission">Please grant us the following permission.</string>
-    <string name="feature_client_skip">Skip</string>
-    <string name="feature_client_select_date">Select Date</string>
-    <string name="feature_client_create_new_client">Create New Client</string>
-    <string name="feature_client_first_name_mandatory">First Name*</string>
-    <string name="feature_client_middle_name">Middle name</string>
-    <string name="feature_client_last_name_mandatory">Last Name*</string>
-    <string name="feature_client_gender">Gender</string>
-    <string name="feature_client_dob">Date of Birth</string>
-    <string name="feature_client_client">Client</string>
-    <string name="feature_client_client_type">Client Type</string>
-    <string name="feature_client_client_classification">Client Classification</string>
-    <string name="feature_client_office_name_mandatory">Office*</string>
-    <string name="feature_client_staff">Staff</string>
-    <string name="feature_client_client_active">Client Active</string>
-    <string name="feature_client_center_submission_date">Submitted On</string>
-    <string name="feature_client_submit">Submit</string>
-    <string name="feature_client_please_select_action">Please select action</string>
-    <string name="feature_client_take_a_photo">Take a Photo</string>
-    <string name="feature_client_upload_photo">Upload Photo</string>
-    <string name="feature_client_remove_existing_photo">Remove Existing Photo</string>
-    <string name="feature_client_error_first_name_can_not_be_empty">First name can not be empty</string>
-    <string name="feature_client_error_first_name_should_contain_only_alphabets">First name should contain only alphabets</string>
-    <string name="feature_client_error_last_name_can_not_be_empty">Last name can not be empty</string>
-    <string name="feature_client_error_last_name_should_contain_only_alphabets">Last name should contain only alphabets</string>
-    <string name="feature_client_error_middle_name_should_contain_only_alphabets">Middle name should contain only alphabets</string>
-    <string name="feature_client_client_created_successfully">Client Created Successfully</string>
-    <string name="feature_client_waiting_for_checker_approval">Waiting for Checker's Approval</string>
-    <string name="feature_client_failed_to_fetch_client_template">Failed to fetch clientTemplate</string>
-    <string name="feature_client_failed_to_fetch_offices">Failed to fetch Offices</string>
-    <string name="feature_client_failed_to_fetch_staffs">Failed to fetch Staffs</string>
-    <string name="feature_client_Image_Upload_Failed">Image Upload Failed</string>
-    <string name="feature_client_Image_Upload_Successful">Image Upload Successful</string>
-    <string name="feature_client_error_not_connected_internet">Not connected to Network</string>
+    <string name="feature_client_failed_sync">Usawazishaji Umeshindikana</string>
+    <string name="feature_client_dialog_action_ok">Sawa</string>
+    <string name="feature_client_cancel">Ghairi</string>
+    <string name="feature_client_hide">Ficha</string>
+    <string name="feature_client_go_back">Rudi Nyuma</string>
+    <string name="feature_client_no_staff_associated_with_office">Hakuna mfanyakazi wa ofisi hii</string>
+    <string name="feature_client_error_network_not_available">Hakuna mtandao</string>
+    <string name="feature_client_permissions_required">Ruhusa Zinahitajika</string>
+    <string name="feature_client_please_grant_us_the_following_permission">Tafadhali ruhusu ifuatayo.</string>
+    <string name="feature_client_skip">Ruka</string>
+    <string name="feature_client_select_date">Chagua Tarehe</string>
+    <string name="feature_client_create_new_client">Tengeneza Mteja Mpya</string>
+    <string name="feature_client_first_name_mandatory">Jina la Kwanza*</string>
+    <string name="feature_client_middle_name">Jina la kati</string>
+    <string name="feature_client_last_name_mandatory">Jina la Familia*</string>
+    <string name="feature_client_gender">Jinsia</string>
+    <string name="feature_client_dob">Tarehe ya Kuzaliwa</string>
+    <string name="feature_client_client">Mteja</string>
+    <string name="feature_client_client_type">Aina ya Mteja</string>
+    <string name="feature_client_client_classification">Kundi la Mteja</string>
+    <string name="feature_client_office_name_mandatory">Ofisi*</string>
+    <string name="feature_client_staff">Mfanyakazi</string>
+    <string name="feature_client_client_active">Mteja Anatumika</string>
+    <string name="feature_client_center_submission_date">Imewasilishwa</string>
+    <string name="feature_client_submit">Tuma</string>
+    <string name="feature_client_please_select_action">Tafadhali chagua kitendo</string>
+    <string name="feature_client_take_a_photo">Piga Picha</string>
+    <string name="feature_client_upload_photo">Pakia Picha</string>
+    <string name="feature_client_remove_existing_photo">Ondoa Picha Iliyopo</string>
+    <string name="feature_client_error_first_name_can_not_be_empty">Jina la kwanza lisiachwe wazi</string>
+    <string name="feature_client_error_first_name_should_contain_only_alphabets">Jina la kwanza liwe herufi tu</string>
+    <string name="feature_client_error_last_name_can_not_be_empty">Jina la familia lisiachwe wazi</string>
+    <string name="feature_client_error_last_name_should_contain_only_alphabets">Jina la familia liwe herufi tu</string>
+    <string name="feature_client_error_middle_name_should_contain_only_alphabets">Jina la kati liwe herufi tu</string>
+    <string name="feature_client_client_created_successfully">Mteja Ametengenezwa</string>
+    <string name="feature_client_waiting_for_checker_approval">Inasubiri Idhini ya Mkaguzi</string>
+    <string name="feature_client_failed_to_fetch_client_template">Imeshindikana kupata fomu ya mteja</string>
+    <string name="feature_client_failed_to_fetch_offices">Imeshindikana kupata ofisi</string>
+    <string name="feature_client_failed_to_fetch_staffs">Imeshindikana kupata wafanyakazi</string>
+    <string name="feature_client_Image_Upload_Failed">Kupakia Picha Kumeshindikana</string>
+    <string name="feature_client_Image_Upload_Successful">Kupakia Picha Kumefanikiwa</string>
+    <string name="feature_client_error_not_connected_internet">Hakuna mtandao</string>
 
-    <string name="feature_client_failed_to_fetch_clients">Failed to Fetch Clients</string>
-    <string name="feature_client_failed_to_more_clients">Failed to load more Clients</string>
-    <string name="feature_client_address">Address</string>
-    <string name="feature_client_add_address">Add Address</string>
-    <string name="feature_client_address_type">Address Type*</string>
-    <string name="feature_client_address_line_1">Address Line 1</string>
-    <string name="feature_client_address_line_2">Address Line 2</string>
-    <string name="feature_client_address_line_3">Address Line 3</string>
-    <string name="feature_client_street">Street</string>
-    <string name="feature_client_city">City</string>
-    <string name="feature_client_town_village">Town/Village</string>
-    <string name="feature_client_county_district">County/District</string>
-    <string name="feature_client_country">Country</string>
-    <string name="feature_client_state_province">State/Province</string>
-    <string name="feature_client_province">Province</string>
-    <string name="feature_client_postal_code">Postal Code</string>
-    <string name="feature_client_address_active">Address Active</string>
-    <string name="feature_client_error_address_type_is_required">Address Type is required</string>
-    <string name="feature_client_failed_to_fetch_address_configuration">Failed to fetch address configuration</string>
-    <string name="feature_client_failed_to_fetch_address_template">Failed to fetch address template</string>
-    <string name="feature_client_unable_to_create_address_for_client">Unable to create address for client</string>
-    <string name="feature_client_success_title">Address Created Successfully</string>
-    <string name="feature_client_create_address_success_message">Client Address created successfully. Click Continue to view the Client Addresses.</string>
-    <string name="feature_client_address_creation_failure_title">Address Creation Failed</string>
-
-
-    <string name="feature_client_empty_address_card_title">No Item Found</string>
-    <string name="feature_client_empty_address_card_message">Click on '+' Button to add an item. </string>
-    <string name="feature_client_failed_to_load_address">Failed to load addresses</string>
-
-    <string name="feature_client_address_type_error">Address Type cannot be empty.</string>
-    <string name="feature_client_address_line_error">Address Line 1 cannot be empty.</string>
-    <string name="feature_client_address_city_error">City cannot be empty.</string>
-    <string name="feature_client_address_state_province_error">State/Province cannot be empty.</string>
-    <string name="feature_client_address_country_error">Country cannot be empty.</string>
-    <string name="feature_client_address_postal_code_error">Postal Code cannot be empty.</string>
+    <string name="feature_client_failed_to_fetch_clients">Imeshindikana Kupata Wateja</string>
+    <string name="feature_client_failed_to_more_clients">Imeshindikana kupakia wateja zaidi</string>
+    <string name="feature_client_address">Anwani</string>
+    <string name="feature_client_add_address">Ongeza Anwani</string>
+    <string name="feature_client_address_type">Aina ya Anwani*</string>
+    <string name="feature_client_address_line_1">Mtaa 1</string>
+    <string name="feature_client_address_line_2">Mtaa 2</string>
+    <string name="feature_client_address_line_3">Mtaa 3</string>
+    <string name="feature_client_street">Mtaa</string>
+    <string name="feature_client_city">Jiji</string>
+    <string name="feature_client_town_village">Mji/Kijiji</string>
+    <string name="feature_client_county_district">Wilaya</string>
+    <string name="feature_client_country">Nchi</string>
+    <string name="feature_client_state_province">Mkoa</string>
+    <string name="feature_client_province">Mkoa</string>
+    <string name="feature_client_postal_code">Namba ya Posta</string>
+    <string name="feature_client_address_active">Anwani Inatumika</string>
+    <string name="feature_client_error_address_type_is_required">Aina ya anwani inahitajika</string>
+    <string name="feature_client_failed_to_fetch_address_configuration">Imeshindikana kupata usanidi wa anwani</string>
+    <string name="feature_client_failed_to_fetch_address_template">Imeshindikana kupata fomu ya anwani</string>
+    <string name="feature_client_unable_to_create_address_for_client">Imeshindikana kutengeneza anwani</string>
+    <string name="feature_client_success_title">Anwani Imetengenezwa</string>
+    <string name="feature_client_create_address_success_message">Anwani imetengenezwa. Endelea kutazama Anwani za Mteja</string>
+    <string name="feature_client_address_creation_failure_title">Kutengeneza Anwani Kumeshindikana</string>
 
 
-    <string name="feature_client_pinpoint_location_marker_title">Pinpoint Location</string>
-    <string name="feature_client_select_location_dialog_title">Select Location</string>
-    <string name="feature_client_latitude_label">Latitude</string>
-    <string name="feature_client_longitude_label">Longitude</string>
-    <string name="feature_client_description_label">Description</string>
-    <string name="feature_client_cancel_button">Cancel</string>
-    <string name="feature_client_submit_button">Submit</string>
-    <string name="feature_client_saved_latitude">Saved Latitude: %1$s</string>
-    <string name="feature_client_saved_longitude">Saved Longitude: %1$s</string>
+    <string name="feature_client_empty_address_card_title">Hakuna Kipengee</string>
+    <string name="feature_client_empty_address_card_message">Bonyeza '+' kuongeza kipengee.</string>
+    <string name="feature_client_failed_to_load_address">Imeshindikana kupakia anwani</string>
 
-    <string name="client_profile_title">Client Profile</string>
-    <string name="client_profile_profile">Profile</string>
-    <string name="client_profile_actions">Actions</string>
-    <string name="client_profile_general_title">General</string>
-    <string name="client_profile_general_subtitle">Check all linked accounts</string>
-    <string name="client_profile_address_title">Address</string>
-    <string name="client_profile_address_subtitle">View or Edit Address</string>
-    <string name="client_profile_family_title">Family Members</string>
-    <string name="client_profile_family_subtitle">Check or edit the linked accounts</string>
-    <string name="client_profile_identifiers_title">Identifiers</string>
-    <string name="client_profile_identifiers_subtitle">Check or update identifiers</string>
-    <string name="client_profile_documents_title">Documents</string>
-    <string name="client_profile_documents_subtitle">Check or upload documents</string>
-    <string name="client_profile_notes_title">Notes</string>
-    <string name="client_profile_notes_subtitle">Check or update note accounts</string>
-    <string name="client_profile_pinpoint_location_title">Pinpoint Location</string>
-    <string name="client_profile_pinpoint_location_subtitle">Check or update client's location</string>
+    <string name="feature_client_address_type_error">Aina ya anwani isiachwe wazi.</string>
+    <string name="feature_client_address_line_error">Mtaa 1 usiachwe wazi.</string>
+    <string name="feature_client_address_city_error">Jiji lisiachwe wazi.</string>
+    <string name="feature_client_address_state_province_error">Mkoa usiachwe wazi.</string>
+    <string name="feature_client_address_country_error">Nchi isiachwe wazi.</string>
+    <string name="feature_client_address_postal_code_error">Namba ya posta isiachwe wazi.</string>
 
-    <string name="client_empty_card_message">Click Here To View Filled State.</string>
 
-    <!-- Client Products -->
-    <string name="client_product_saving_account">Savings Products</string>
-    <string name="client_product_fixed_deposit_account">Fixed Deposit Products</string>
-    <string name="client_product_recurring_deposit_account">Recurring Deposit Products</string>
-    <string name="client_product_shares_account">Shares Products</string>
+    <string name="feature_client_pinpoint_location_marker_title">Bainisha Mahali</string>
+    <string name="feature_client_select_location_dialog_title">Chagua Mahali</string>
+    <string name="feature_client_latitude_label">Latitudo</string>
+    <string name="feature_client_longitude_label">Longitudo</string>
+    <string name="feature_client_description_label">Maelezo</string>
+    <string name="feature_client_cancel_button">Ghairi</string>
+    <string name="feature_client_submit_button">Tuma</string>
+    <string name="feature_client_saved_latitude">Latitudo Imehifadhiwa: %1$s</string>
+    <string name="feature_client_saved_longitude">Longitudo Imehifadhiwa: %1$s</string>
 
-    <!-- Client_Profile-General-Headers -->
-    <string name="client_profile_general_header_performance_history">Performance History</string>
-    <string name="client_profile_general_header_actions">Actions</string>
-    <string name="client_profile_general_header_linked_accounts">Linked Accounts</string>
+    <string name="client_profile_title">Wasifu wa Mteja</string>
+    <string name="client_profile_profile">Wasifu</string>
+    <string name="client_profile_actions">Vitendo</string>
+    <string name="client_profile_general_title">Kawaida</string>
+    <string name="client_profile_general_subtitle">Angalia akaunti zote</string>
+    <string name="client_profile_address_title">Anwani</string>
+    <string name="client_profile_address_subtitle">Tazama au Hariri Anwani</string>
+    <string name="client_profile_family_title">Wanafamilia</string>
+    <string name="client_profile_family_subtitle">Angalia au hariri akaunti</string>
+    <string name="client_profile_identifiers_title">Vitambulisho</string>
+    <string name="client_profile_identifiers_subtitle">Angalia au sasisha vitambulisho</string>
+    <string name="client_profile_documents_title">Nyaraka</string>
+    <string name="client_profile_documents_subtitle">Angalia au pakia nyaraka</string>
+    <string name="client_profile_notes_title">Vidokezo</string>
+    <string name="client_profile_notes_subtitle">Angalia au sasisha vidokezo</string>
+    <string name="client_profile_pinpoint_location_title">Bainisha Mahali</string>
+    <string name="client_profile_pinpoint_location_subtitle">Angalia au sasisha mahali pa mteja</string>
 
-    <!-- Client_Profile-General-Performance History -->
-    <string name="client_performance_history_loan_cycle_count_label">No. Of Loan Cycles : </string>
-    <string name="client_performance_history_active_loans_count_label">No. Of Active Loans : </string>
-    <string name="client_performance_history_active_savings_label">No. of Active Savings : </string>
-    <string name="client_performance_history_last_loan_amount_label">Last Loan Amount : </string>
-    <string name="client_performance_history_total_savings_label">Total Savings : </string>
+    <string name="client_empty_card_message">Bonyeza Hapa Kutazama.</string>
 
-    <!-- Client_Profile-General-Actions -->
-    <string name="client_profile_general_action_title_upcoming_charges">Upcoming Charges</string>
-    <string name="client_profile_general_action_subtitle_upcoming_charges">Check all linked accounts</string>
-    <string name="client_profile_general_action_title_loan_accounts">Loan Accounts</string>
-    <string name="client_profile_general_action_subtitle_loan_accounts">View or edit the linked address</string>
-    <string name="client_profile_general_action_title_saving_account">Saving Accounts</string>
-    <string name="client_profile_general_action_subtitle_saving_account">Check or edit the linked accounts</string>
-    <string name="client_profile_general_action_title_fixed_deposit_accounts">Fixed Deposit Accounts</string>
-    <string name="client_profile_general_action_subtitle_fixed_deposit_accounts">Check or update the identities</string>
-    <string name="client_profile_general_action_title_recurring_deposit_accounts">Recurring Deposit Accounts</string>
-    <string name="client_profile_general_action_subtitle_recurring_deposit_accounts">Check or upload the documents</string>
-    <string name="client_profile_general_action_title_shares_accounts">Shares Accounts</string>
-    <string name="client_profile_general_action_subtitle_shares_accounts">Check or update the account notes</string>
-    <string name="client_profile_general_action_title_collateral_data">Collateral Data</string>
-    <string name="client_profile_general_action_subtitle_collateral_data">Check or update the account notes</string>
+    
+    <string name="client_product_saving_account">Bidhaa za Akiba</string>
+    <string name="client_product_fixed_deposit_account">Bidhaa za Amana</string>
+    <string name="client_product_recurring_deposit_account">Bidhaa za Amana za Mara kwa Mara</string>
+    <string name="client_product_shares_account">Bidhaa za Hisa</string>
 
-    <!-- Client_Profile-Recurring Deposit Account Title -->
-    <string name="client_profile_recurring_deposit_account_title">Recurring Deposit Accounts</string>
-    <!-- Client_Profile-Fixed Deposit Account Title -->
-    <string name="client_profile_fixed_deposit_account_title">Fixed Deposit Accounts</string>
+    
+    <string name="client_profile_general_header_performance_history">Historia ya Utendaji</string>
+    <string name="client_profile_general_header_actions">Vitendo</string>
+    <string name="client_profile_general_header_linked_accounts">Akaunti Zilizounganishwa</string>
 
-    <!-- Client Documents -->
-    <string name="document_name">Document Name</string>
-    <string name="add_document_title">Add Document</string>
-    <string name="hint_document_name">Enter document name</string>
-    <string name="hint_description">Enter description</string>
-    <string name="action_go_back">Go Back</string>
-    <string name="no_file_selected">No File Selected</string>
-    <string name="action_add">Add</string>
-    <string name="action_view">View</string>
-    <string name="btn_update_new">Update New</string>
+    
+    <string name="client_performance_history_loan_cycle_count_label">Idadi ya Mizunguko ya Mikopo :</string>
+    <string name="client_performance_history_active_loans_count_label">Idadi ya Mikopo Inayoendelea :</string>
+    <string name="client_performance_history_active_savings_label">Idadi ya Akiba Inayoendelea :</string>
+    <string name="client_performance_history_last_loan_amount_label">Kiasi cha Mkopo Uliopita :</string>
+    <string name="client_performance_history_total_savings_label">Jumla ya Akiba :</string>
 
-    <string name="error_document_size_exceeded">Document size cannot be greater than 1 MB.</string>
+    
+    <string name="client_profile_general_action_title_upcoming_charges">Tozo Zijazo</string>
+    <string name="client_profile_general_action_subtitle_upcoming_charges">Angalia akaunti zote</string>
+    <string name="client_profile_general_action_title_loan_accounts">Akaunti za Mikopo</string>
+    <string name="client_profile_general_action_subtitle_loan_accounts">Angalia au hariri anwani</string>
+    <string name="client_profile_general_action_title_saving_account">Akaunti za Akiba</string>
+    <string name="client_profile_general_action_subtitle_saving_account">Angalia au hariri akaunti</string>
+    <string name="client_profile_general_action_title_fixed_deposit_accounts">Akaunti za Amana</string>
+    <string name="client_profile_general_action_subtitle_fixed_deposit_accounts">Angalia au sasisha vitambulisho</string>
+    <string name="client_profile_general_action_title_recurring_deposit_accounts">Akaunti za Amana za Mara kwa Mara</string>
+    <string name="client_profile_general_action_subtitle_recurring_deposit_accounts">Angalia au pakia nyaraka</string>
+    <string name="client_profile_general_action_title_shares_accounts">Akaunti za Hisa</string>
+    <string name="client_profile_general_action_subtitle_shares_accounts">Angalia au sasisha vidokezo</string>
+    <string name="client_profile_general_action_title_collateral_data">Taarifa za Dhamana</string>
+    <string name="client_profile_general_action_subtitle_collateral_data">Angalia au sasisha vidokezo</string>
 
-    <string name="error_failed_to_get_document_type">Failed to get document type</string>
-    <string name="error_document_not_found">Document not found</string>
+    
+    <string name="client_profile_recurring_deposit_account_title">Akaunti za Amana za Mara kwa Mara</string>
+    
+    <string name="client_profile_fixed_deposit_account_title">Akaunti za Amana</string>
 
-    <string name="default_preview_pdf_name">attachment</string>
-    <string name="client_documents_failed_to_open">Failed to open document</string>
-    <string name="client_documents_failed_to_delete">"Failed to delete document"</string>
-    <string name="unknown_file_caching_error">An unknown error occurred while caching the file</string>
-    <string name="unexpected_loading">File writing flow finished unexpectedly in a Loading state</string>
-    <string name="returned_invalid_data_after_caching">File writing succeeded but returned invalid data.</string>
+    
+    <string name="document_name">Jina la Waraka</string>
+    <string name="add_document_title">Ongeza Waraka</string>
+    <string name="hint_document_name">Ingiza jina la waraka</string>
+    <string name="hint_description">Ingiza maelezo</string>
+    <string name="action_go_back">Rudi Nyuma</string>
+    <string name="no_file_selected">Hakuna Faili Imechaguliwa</string>
+    <string name="action_add">Ongeza</string>
+    <string name="action_view">Tazama</string>
+    <string name="btn_update_new">Sasisha Mpya</string>
 
-    <string name="unknown_error">Unknown error</string>
-    <!-- Personal Info -->
-    <string name="gender">Gender</string>
-    <string name="date_of_birth">Date of Birth</string>
+    <string name="error_document_size_exceeded">Ukubwa wa waraka usizidi MB 1.</string>
 
-    <!-- Account Info -->
-    <string name="account_no">Account No</string>
-    <string name="office">Office</string>
-    <string name="external_id">External Id</string>
-    <string name="email_address">Email Address</string>
+    <string name="error_failed_to_get_document_type">Imeshindikana kupata aina ya waraka</string>
+    <string name="error_document_not_found">Waraka haujapatikana</string>
 
-    <!-- Other Info -->
-    <string name="legal_form">Legal Form</string>
-    <string name="client_type">Client Type</string>
-    <string name="client_classification">Client Classification</string>
-    <string name="submission_date">Submission Date</string>
-    <string name="activation_date">Activation Date</string>
-    <string name="staff">Staff</string>
+    <string name="default_preview_pdf_name">kiambatisho</string>
+    <string name="client_documents_failed_to_open">Imeshindikana kufungua waraka</string>
+    <string name="client_documents_failed_to_delete">Imeshindikana kufuta waraka</string>
+    <string name="unknown_file_caching_error">Hitilafu imetokea wakati wa kuhifadhi faili</string>
+    <string name="unexpected_loading">Uandikaji wa faili umeishia ghafla</string>
+    <string name="returned_invalid_data_after_caching">Uandikaji umefanikiwa lakini data si sahihi.</string>
 
-    <!-- Scaffold Title -->
-    <string name="client_profile_details_title">Client Profile Details</string>
+    <string name="unknown_error">Hitilafu isiyojulikana</string>
+    
+    <string name="gender">Jinsia</string>
+    <string name="date_of_birth">Tarehe ya Kuzaliwa</string>
 
-    <!-- Buttons -->
-    <string name="update_photo">Update Photo</string>
-    <string name="update_signature">Update Signature</string>
-    <string name="update_details">Update Details</string>
+    
+    <string name="account_no">Namba ya Akaunti</string>
+    <string name="office">Ofisi</string>
+    <string name="external_id">Kitambulisho cha Nje</string>
+    <string name="email_address">Barua Pepe</string>
 
-    <!-- Scroll Hint -->
-    <string name="scroll_for_more_options">Scroll for More Options</string>
+    
+    <string name="legal_form">Hali ya Kisheria</string>
+    <string name="client_type">Aina ya Mteja</string>
+    <string name="client_classification">Kundi la Mteja</string>
+    <string name="submission_date">Tarehe ya Kuwasilisha*</string>
+    <string name="activation_date">Tarehe ya Kuanzishwa</string>
+    <string name="staff">Mfanyakazi</string>
 
-    <!-- Action Item Titles -->
-    <string name="apply_new_application_title">Apply New Application</string>
-    <string name="closure_application_title">Closure Application</string>
-    <string name="transfer_client_title">Transfer Client</string>
-    <string name="assign_staff_title">Assign Staff</string>
-    <string name="add_charge_title">Add Charge</string>
-    <string name="create_collateral_title">Create Collateral</string>
-    <string name="update_default_account_title">Update Default Account</string>
-    <string name="client_screen_reports_title">Client Screen Reports</string>
-    <string name="create_standing_instructions_title">Create Standing Instructions</string>
-    <string name="view_standing_instructions_title">View Standing Instructions</string>
-    <string name="create_self_service_users_title">Create Self Service Users</string>
+    
+    <string name="client_profile_details_title">Maelezo ya Wasifu wa Mteja</string>
 
-    <!-- Action Item SubTitles -->
-    <string name="apply_new_application_subtitle">Create and apply for new accounts</string>
-    <string name="closure_application_subtitle">Apply for ID closure</string>
-    <string name="transfer_client_subtitle">Apply for transfer of the ID</string>
-    <string name="assign_staff_subtitle">Assign or change the service staff</string>
-    <string name="add_charge_subtitle">Add new charge over the ID</string>
-    <string name="create_collateral_subtitle">Add or create a new collateral</string>
-    <string name="update_default_account_subtitle">Update the default savings account</string>
-    <string name="client_screen_reports_subtitle">Generate the screening reports</string>
-    <string name="create_standing_instructions_subtitle">Create new standing instruction over ID</string>
-    <string name="view_standing_instructions_subtitle">View standing instruction over ID</string>
-    <string name="create_self_service_users_subtitle">Change the status of ID to self service</string>
+    
+    <string name="update_photo">Sasisha Picha</string>
+    <string name="update_signature">Sasisha Sahihi</string>
+    <string name="update_details">Sasisha Maelezo</string>
 
-    <!-- Client Profile Edit -->
-    <string name="edit_profile_title">Edit Profile</string>
-    <string name="account_number_prefix">Acc. No. %1$s</string>
-    <string name="update_profile_photo_message">Please update your profile photo at earliest!</string>
-    <string name="delete_photo">Delete Photo</string>
-    <string name="upload_new_photo">Upload New Photo</string>
+    
+    <string name="scroll_for_more_options">Tembeza kwa chaguo zaidi</string>
 
-    <!-- Delete Confirmation Dialog -->
-    <string name="delete_dialog_message">Please confirm that you want to remove the photo? You can upload the new photo again through the app or website.</string>
-    <string name="remove">Remove</string>
-    <string name="cancel">Cancel</string>
-    <string name="delete_dialog_identifier_message">Are you sure you want to delete this document with ID %1$s?</string>
+    
+    <string name="apply_new_application_title">Omba Maombi Mapya</string>
+    <string name="closure_application_title">Ombi la Kufunga</string>
+    <string name="transfer_client_title">Hamisha Mteja</string>
+    <string name="assign_staff_title">Panga Mfanyakazi</string>
+    <string name="add_charge_title">Ongeza Tozo</string>
+    <string name="create_collateral_title">Tengeneza Dhamana</string>
+    <string name="update_default_account_title">Sasisha Akaunti Kuu</string>
+    <string name="client_screen_reports_title">Ripoti za Mteja</string>
+    <string name="create_standing_instructions_title">Tengeneza Maelekezo ya Kudumu</string>
+    <string name="view_standing_instructions_title">Tazama Maelekezo ya Kudumu</string>
+    <string name="create_self_service_users_title">Tengeneza Watumiaji wa Kujihudumia</string>
 
-    <!-- Document Delete Confirmation Dialog -->
-    <string name="delete_dialog_title">Are you sure?</string>
-    <string name="document_delete_dialog_message">Please confirm that you want to delete this document?</string>
+    
+    <string name="apply_new_application_subtitle">Tengeneza na omba akaunti mpya</string>
+    <string name="closure_application_subtitle">Omba kufungwa kwa kitambulisho</string>
+    <string name="transfer_client_subtitle">Omba kuhamishwa kwa kitambulisho</string>
+    <string name="assign_staff_subtitle">Panga au badilisha mfanyakazi</string>
+    <string name="add_charge_subtitle">Ongeza tozo mpya</string>
+    <string name="create_collateral_subtitle">Ongeza au tengeneza dhamana mpya</string>
+    <string name="update_default_account_subtitle">Sasisha akaunti kuu ya akiba</string>
+    <string name="client_screen_reports_subtitle">Tengeneza ripoti za uchunguzi</string>
+    <string name="create_standing_instructions_subtitle">Tengeneza maelekezo mapya ya kudumu</string>
+    <string name="view_standing_instructions_subtitle">Tazama maelekezo ya kudumu</string>
+    <string name="create_self_service_users_subtitle">Badilisha hali kuwa kujihudumia</string>
 
-    <!-- Upload Options -->
-    <string name="choose_from_option">Choose from option</string>
-    <string name="camera">Camera</string>
-    <string name="gallery">Gallery</string>
+    
+    <string name="edit_profile_title">Hariri Wasifu</string>
+    <string name="account_number_prefix">Na. %1$s</string>
+    <string name="update_profile_photo_message">Tafadhali sasisha picha yako mapema!</string>
+    <string name="delete_photo">Futa Picha</string>
+    <string name="upload_new_photo">Pakia Picha Mpya</string>
+
+    
+    <string name="delete_dialog_message">Thibitisha kufuta picha? Unaweza kupakia mpya</string>
+    <string name="remove">Ondoa</string>
+    <string name="cancel">Ghairi</string>
+    <string name="delete_dialog_identifier_message">Una uhakika kufuta waraka wenye ID %1$s?</string>
+
+    
+    <string name="delete_dialog_title">Una uhakika?</string>
+    <string name="document_delete_dialog_message">Thibitisha kufuta waraka huu?</string>
+
+    
+    <string name="choose_from_option">Chagua chaguo</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Matunzio</string>
 
     <string name="string_not_available">N/A</string>
-    <string name="name_na">Name: N/A</string>
-    <string name="mobile_na">Mobile: N/A</string>
-    <string name="email_na">Email: N/A</string>
-    <string name="office_na">Office: N/A</string>
+    <string name="name_na">Jina: N/A</string>
+    <string name="mobile_na">Simu: N/A</string>
+    <string name="email_na">Barua: N/A</string>
+    <string name="office_na">Ofisi: N/A</string>
     <string name="group_na">N/A</string>
-    <string name="group_label">Group:</string>
+    <string name="group_label">Kikundi:</string>
 
-    <!-- Titles -->
-    <string name="title_client_assign_staff">Client Assign Staff</string>
-    <string name="title_unassign_staff">Unassigning staff?</string>
+    
+    <string name="title_client_assign_staff">Panga Mfanyakazi kwa Mteja</string>
+    <string name="title_unassign_staff">Ondoa mfanyakazi?</string>
 
-    <!-- Dialogs -->
-    <string name="dialog_unassign_message">This client already has a staff member assigned.Do you want to unassign the staff for this client?Once unassigned, a new staff member can only be assigned again after a few minutes.</string>
-    <string name="confirm_text">I Confirm</string>
-    <string name="dismiss_text">Cancel</string>
-    <string name="dialog_continue">Continue</string>
+    
+    <string name="dialog_unassign_message">Mteja huyu ana mfanyakazi. Unataka kumwondoa?</string>
+    <string name="confirm_text">Nathibitisha</string>
+    <string name="dismiss_text">Ghairi</string>
+    <string name="dialog_continue">Endelea</string>
 
-    <!-- Assign Staff Screen -->
-    <string name="label_assign_staff">Assign Staff</string>
-    <string name="label_choose_staff">Choose the service staff</string>
-    <string name="btn_back">Back</string>
-    <string name="btn_submit">Submit</string>
-    <string name="msg_cannot_assign_staff">Can't Assign a Staff to this client</string>
+    
+    <string name="label_assign_staff">Panga Mfanyakazi</string>
+    <string name="label_choose_staff">Chagua mfanyakazi</string>
+    <string name="btn_back">Rudi</string>
+    <string name="btn_submit">Tuma</string>
+    <string name="msg_cannot_assign_staff">Haiwezekani kumpanga mfanyakazi huyu</string>
 
-    <!-- ShowAddressList & Failure Messages -->
-    <string name="staff_unassign_success_title">Staff Unassigned Successfully!!</string>
-    <string name="staff_unassign_success_message">Your request was completed successfully.</string>
-    <string name="staff_unassign_failure_title">Staff Unassigning Failed!</string>
-    <string name="staff_assign_success_title">Staff Assigned Successfully!!</string>
-    <string name="staff_assign_success_message">Your request was completed successfully.</string>
-    <string name="staff_assign_failure_title">Staff Assigning Failed!</string>
+    
+    <string name="staff_unassign_success_title">Mfanyakazi Ameondolewa!!</string>
+    <string name="staff_unassign_success_message">Ombi lako limekamilika.</string>
+    <string name="staff_unassign_failure_title">Kuondoa Mfanyakazi Kumeshindikana!</string>
+    <string name="staff_assign_success_title">Mfanyakazi Amepangwa!!</string>
+    <string name="staff_assign_success_message">Ombi lako limekamilika.</string>
+    <string name="staff_assign_failure_title">Kupanga Mfanyakazi Kumeshindikana!</string>
 
-    <!-- Client Transfer Screen -->
-    <string name="client_transfer_title">Client Transfer</string>
-    <string name="client_transfer_choose_office">Choose Destination Office</string>
-    <string name="client_transfer_expected_date">Expected Transfer Date</string>
-    <string name="client_transfer_add_notes">Add Notes</string>
-    <string name="client_transfer_add_note_here">Add Note Here</string>
+    
+    <string name="client_transfer_title">Hamisha Mteja</string>
+    <string name="client_transfer_choose_office">Chagua Ofisi Unakokwenda</string>
+    <string name="client_transfer_expected_date">Tarehe ya Kuhama</string>
+    <string name="client_transfer_add_notes">Ongeza Vidokezo</string>
+    <string name="client_transfer_add_note_here">Andika Dokezo Hapa</string>
 
-    <!-- Status Dialog -->
-    <string name="client_transfer_success_title">Transfer Request Sent</string>
-    <string name="client_transfer_success_message">Transfer Request Sent Successfully. Please Continue to get back to Profile Details Screen</string>
-    <string name="client_transfer_failure_title">Transfer Failed!</string>
+    
+    <string name="client_transfer_success_title">Ombi la Uhamisho Limetumwa</string>
+    <string name="client_transfer_success_message">Ombi limetumwa. Endelea kurudi kwenye Wasifu</string>
+    <string name="client_transfer_failure_title">Uhamisho Umeshindikana!</string>
 
-    <!-- Update Default Account Dialog -->
-    <string name="update_default_account_choose">Choose Default Savings Account</string>
-    <string name="update_default_account_failure_title">Failed to update default account</string>
-    <string name="update_default_account_success_message">Default account updated successfully. Please Continue to get back to Profile Details Screen</string>
-    <string name="update_default_account_success_title">Update Successful</string>
-    <string name="update_default_no_accounts_found">No Savings Accounts found for this client</string>
+    
+    <string name="update_default_account_choose">Chagua Akaunti Kuu ya Akiba</string>
+    <string name="update_default_account_failure_title">Kusasisha Akaunti Kuu Kumeshindikana</string>
+    <string name="update_default_account_success_message">Akaunti kuu imesasishwa. Endelea kurudi kwenye Wasifu</string>
+    <string name="update_default_account_success_title">Imesasishwa</string>
+    <string name="update_default_no_accounts_found">Hakuna akaunti za akiba za mteja huyu</string>
 
-    <!-- Client Edit Details -->
-    <string name="client_details_updated">Client Details Updated</string>
-    <string name="client_details_updated_success_message">The client details has been updated successfully. Please Continue to get back to Home</string>
-    <string name="client_details_update_failure_title">Client Details Update Failed</string>
+    
+    <string name="client_details_updated">Maelezo ya Mteja Yamesasishwa</string>
+    <string name="client_details_updated_success_message">Maelezo yamesasishwa. Endelea kurudi</string>
+    <string name="client_details_update_failure_title">Kusasisha Maelezo Kumeshindikana</string>
 
-    <!-- Client Closure -->
-    <string name="client_closure_success_title">Client Closure Successful</string>
-    <string name="client_closure_success_message">The client account has been closed successfully. Please Continue to get back to Home</string>
-    <string name="client_closure_failure_title">Client Closure Failed</string>
-    <string name="client_closure_reason">Closure Reason</string>
-    <string name="client_closure_expected_date">Expected Closing Date</string>
-    <string name="client_closure_title">Closure Application</string>
-    <string name="client_closure_no_reasons_found">No closure reasons found</string>
+    
+    <string name="client_closure_success_title">Kufunga Mteja Kumefanikiwa</string>
+    <string name="client_closure_success_message">Akaunti imefungwa. Endelea kurudi</string>
+    <string name="client_closure_failure_title">Kufunga Mteja Kumeshindikana</string>
+    <string name="client_closure_reason">Sababu ya Kufunga</string>
+    <string name="client_closure_expected_date">Tarehe ya Kufunga</string>
+    <string name="client_closure_title">Ombi la Kufunga</string>
+    <string name="client_closure_no_reasons_found">Hakuna sababu zilizopatikana</string>
 
-    <string name="client_savings_savings_accounts">Savings Accounts</string>
-    <string name="client_savings_item">item</string>
-    <string name="client_savings_pending_approval">Pending Approval</string>
-    <string name="client_savings_not_available">Not Available</string>
+    <string name="client_savings_savings_accounts">Akaunti za Akiba</string>
+    <string name="client_savings_item">kipengee</string>
+    <string name="client_savings_pending_approval">Inasubiri Idhini</string>
+    <string name="client_savings_not_available">Haipatikani</string>
 
-    <string name="client_collateral_title">Client Collateral</string>
-    <string name="client_collateral_choose_type">Choose Collateral Type</string>
-    <string name="client_collateral_name">Collateral Name</string>
-    <string name="client_collateral_quality">Type/Quality</string>
-    <string name="client_collateral_unit_type">Unit Type</string>
-    <string name="client_collateral_base_price">Base Price</string>
-    <string name="client_collateral_pct_to_base">Percentage to Base</string>
-    <string name="client_collateral_quantity">Quantity</string>
-    <string name="client_collateral_total">Total</string>
-    <string name="client_collateral_total_collateral">Total Collateral Value</string>
-    <string name="client_collateral_no_options">No Collateral options found for this client</string>
-    <string name="client_collateral_success_title">Collateral Created Successfully</string>
-    <string name="client_collateral_success_message">Collateral created successfully. Click Continue to navigate to Client detail profile.</string>
-    <string name="client_collateral_failure_title">Collateral Creation Failed</string>
+    <string name="client_collateral_title">Dhamana ya Mteja</string>
+    <string name="client_collateral_choose_type">Chagua Aina ya Dhamana</string>
+    <string name="client_collateral_name">Jina la Dhamana</string>
+    <string name="client_collateral_quality">Aina/Ubora</string>
+    <string name="client_collateral_unit_type">Aina ya Kipimo</string>
+    <string name="client_collateral_base_price">Bei ya Msingi</string>
+    <string name="client_collateral_pct_to_base">Asilimia ya Msingi</string>
+    <string name="client_collateral_quantity">Idadi</string>
+    <string name="client_collateral_total">Jumla</string>
+    <string name="client_collateral_total_collateral">Jumla ya Thamani ya Dhamana</string>
+    <string name="client_collateral_no_options">Hakuna chaguo za dhamana kwa mteja huyu</string>
+    <string name="client_collateral_success_title">Dhamana Imetengenezwa</string>
+    <string name="client_collateral_success_message">Dhamana imetengenezwa. Endelea kurudi kwenye maelezo ya Mteja</string>
+    <string name="client_collateral_failure_title">Kutengeneza Dhamana Kumeshindikana</string>
 
-    <string name="client_profile_select_account_type">Select Account Type</string>
-    <string name="client_profile_savings_account">Savings Account</string>
-    <string name="client_profile_loan_account">Loan Account</string>
-    <string name="client_profile_photo_updated_success">Profile photo updated successfully</string>
-    <string name="client_profile_photo_updated_failure">Unknown Error</string>
-    <string name="client_profile_edit_success_title">Success</string>
-    <string name="client_profile_edit_failure_title">Error</string>
+    <string name="client_profile_select_account_type">Chagua Aina ya Akaunti</string>
+    <string name="client_profile_savings_account">Akaunti ya Akiba</string>
+    <string name="client_profile_loan_account">Akaunti ya Mkopo</string>
+    <string name="client_profile_photo_updated_success">Picha imesasishwa</string>
+    <string name="client_profile_photo_updated_failure">Hitilafu Isiyojulikana</string>
+    <string name="client_profile_edit_success_title">Imefanikiwa</string>
+    <string name="client_profile_edit_failure_title">Hitilafu</string>
 
-    <string name="client_identifiers_click_on_plus_button_to_add_an_item">Click on “+” Button to add an item.</string>
-    <string name="client_identifiers_not_available">Not available</string>
-    <string name="client_identifiers_identities">Identities</string>
-    <string name="client_identifiers_identities_success_text">Success</string>
-    <string name="client_identifiers_error_text">Error</string>
-    <string name="client_identifiers_retry">Retry</string>
-    <string name="client_identifiers_identities_client_identifier_deletion_success">Successfully deleted client identifier with id</string>
+    <string name="client_identifiers_click_on_plus_button_to_add_an_item">Bonyeza '+' kuongeza kipengee.</string>
+    <string name="client_identifiers_not_available">Haipatikani</string>
+    <string name="client_identifiers_identities">Vitambulisho</string>
+    <string name="client_identifiers_identities_success_text">Imefanikiwa</string>
+    <string name="client_identifiers_error_text">Hitilafu</string>
+    <string name="client_identifiers_retry">Jaribu tena</string>
+    <string name="client_identifiers_identities_client_identifier_deletion_success">Kitambulisho kimefutwa</string>
 
-    <!-- Apply New Applications Screen -->
-    <string name="client_apply_new_applications_title">Choose Application Type</string>
-    <string name="client_apply_new_applications_loan_account">New Loan Account</string>
-    <string name="client_apply_new_applications_savings_account">New Savings Account</string>
-    <string name="client_apply_new_applications_share_account">New Share Account</string>
-    <string name="client_apply_new_applications_recurring_account">New Recurring Deposit Account</string>
-    <string name="client_apply_new_applications_fixed_account">New Fixed Deposit Account</string>
-    <string name="client_apply_new_applications_apply_loan_account">Apply for new loan account</string>
-    <string name="client_apply_new_applications_apply_savings_account">Apply for new savings account</string>
-    <string name="client_apply_new_applications_apply_share_account">Apply for new share account</string>
-    <string name="client_apply_new_applications_apply_recurring_account">Apply for new recurring deposit account</string>
-    <string name="client_apply_new_applications_apply_fixed_account">Apply for new fixed deposit account</string>
-    <string name="client_apply_new_applications_client_inactive_msg">This client account is currently inactive. Activation is required before a new account can be created.</string>
+    
+    <string name="client_apply_new_applications_title">Chagua Aina ya Maombi</string>
+    <string name="client_apply_new_applications_loan_account">Akaunti Mpya ya Mkopo</string>
+    <string name="client_apply_new_applications_savings_account">Akaunti Mpya ya Akiba</string>
+    <string name="client_apply_new_applications_share_account">Akaunti Mpya ya Hisa</string>
+    <string name="client_apply_new_applications_recurring_account">Akaunti Mpya ya Amana za Mara kwa Mara</string>
+    <string name="client_apply_new_applications_fixed_account">Akaunti Mpya ya Amana</string>
+    <string name="client_apply_new_applications_apply_loan_account">Omba akaunti mpya ya mkopo</string>
+    <string name="client_apply_new_applications_apply_savings_account">Omba akaunti mpya ya akiba</string>
+    <string name="client_apply_new_applications_apply_share_account">Omba akaunti mpya ya hisa</string>
+    <string name="client_apply_new_applications_apply_recurring_account">Omba akaunti mpya ya amana za mara kwa mara</string>
+    <string name="client_apply_new_applications_apply_fixed_account">Omba akaunti mpya ya amana</string>
+    <string name="client_apply_new_applications_client_inactive_msg">Akaunti ya mteja haijafunguliwa. Washa kwanza kabla ya maombi mapya</string>
 
-    <string name="step_details">Details</string>
-    <string name="step_terms">Terms</string>
-    <string name="step_settings">Settings</string>
-    <string name="step_interest">Interest</string>
-    <string name="step_charges">Charges</string>
-    <string name="step_preview">Preview</string>
-    <string name="create_recurring_deposit_account">Create Recurring Deposit Account</string>
-
-
-    <!-- Client Signature -->
-    <string name="client_signature_delete">Delete Signature</string>
-    <string name="client_signature_upload">Upload New Signature</string>
-    <string name="client_signature_not_found">No Signature Found!</string>
-    <string name="client_signature_upload_message">Please update your signature\nat earliest!</string>
-    <string name="client_signature_delete_warning_message">Please confirm that you want to remove the signature? You can upload the new signature again through the app or website.</string>
-    <string name="client_signature_gallery">Gallery</string>
-    <string name="client_signature_draw">Draw</string>
-    <string name="client_signature_more">More</string>
-
-    <!-- Client Loan Accounts-->
-    <string name="client_loan_accounts_not_available">Not Available</string>
-
-    <!-- Client Share Account-->
-    <string name="client_share_accounts_share_accounts">Share Accounts</string>
-    <string name="client_share_accounts_an_error_occurred">An error occurred</string>
-    <string name="client_share_accounts_failed_to_fetch_share_accounts">Failed to fetch share accounts</string>
-    <string name="client_share_accounts_try_again">Try again</string>
-
-    <!-- Client Upcoming Charges-->
-    <string name="client_upcoming_charges_failed_message">Failed to get upcoming charges</string>
-    <string name="client_upcoming_charges_no_more_charges_available">No more charges available!</string>
-    <string name="client_upcoming_charges_charges_overview">Charges Overview</string>
-
-    <!-- Client Identifier-->
-    <string name="client_identifier_title">Add Identifiers</string>
-    <string name="client_identifier_document_type">Document Type*</string>
-    <string name="client_identifier_status">Status*</string>
-    <string name="client_identifier_document_key">Document Key*</string>
-    <string name="client_identifier_description">Description</string>
-    <string name="client_identifier_document_name">Document Name*</string>
-    <string name="client_identifier_btn_create_new">Create New</string>
-    <string name="client_identifier_btn_upload_new">Upload New</string>
-    <string name="client_identifier_btn_next">Next</string>
-    <string name="client_identifier_btn_back">Back</string>
-    <string name="client_identifier_btn_add">Add</string>
-    <string name="client_identifier_btn_view">View</string>
-    <string name="client_identifier_btn_submit">Submit</string>
-    <string name="client_identifier_no_file_selected">No File Selected</string>
-    <string name="client_identifier_document_not_found">Document not found</string>
-    <string name="client_identifier_btn_update">Update</string>
-    <string name="client_update_document_title">Update Document</string>
-    <!-- Screen Title -->
-    <string name="title_new_fixed_deposit_account">New Fixed Deposit Account</string>
-    <string name="title_new_recurring_deposit_account">New Recurring Deposit Account</string>
-    <!-- New Fixed Deposit Account -->
-    <string name="one_year_fixed_deposit">1 Year Fixed Deposit</string>
-    <string name="submission_on">Submission On</string>
-    <string name="field_officer">Field Officer</string>
+    <string name="step_details">Maelezo</string>
+    <string name="step_terms">Masharti</string>
+    <string name="step_settings">Mipangilio</string>
+    <string name="step_interest">Riba</string>
+    <string name="step_charges">Tozo</string>
+    <string name="step_preview">Hakiki</string>
+    <string name="create_recurring_deposit_account">Tengeneza Akaunti ya Amana za Mara kwa Mara</string>
 
 
-    <!-- Create Share Account -->
-    <string name="feature_share_account_details">Details</string>
-    <string name="feature_share_account_terms">Terms</string>
-    <string name="feature_share_account_charges">Charges</string>
-    <string name="feature_share_account_preview">Preview</string>
-    <string name="feature_share_account_back">Back</string>
-    <string name="feature_share_account_next">Next</string>
-    <string name="feature_share_account_submit">Submit</string>
-    <string name="feature_share_account_created_successfully">Share account created successfully</string>
+    
+    <string name="client_signature_delete">Futa Sahihi</string>
+    <string name="client_signature_upload">Pakia Sahihi Mpya</string>
+    <string name="client_signature_not_found">Hakuna Sahihi!</string>
+    <string name="client_signature_upload_message">Tafadhali sasisha sahihi yako mapema!</string>
+    <string name="client_signature_delete_warning_message">Thibitisha kufuta sahihi? Unaweza kupakia mpya</string>
+    <string name="client_signature_gallery">Matunzio</string>
+    <string name="client_signature_draw">Chora</string>
+    <string name="client_signature_more">Zaidi</string>
 
-    <string name="feature_share_account_detail_product_name">Product Name</string>
-    <string name="feature_share_account_detail_submission_date">Submission Date</string>
-    <string name="feature_share_account_detail_external_id">External Id</string>
-    <string name="feature_share_account_detail_date_select">Select</string>
-    <string name="feature_share_account_detail_date_cancel">Cancel</string>
+    
+    <string name="client_loan_accounts_not_available">Haipatikani</string>
 
-    <string name="feature_share_account_terms_currency">Currency</string>
-    <string name="feature_share_account_terms_current_price">Current Price</string>
-    <string name="feature_share_account_terms_total_shares">Total Number of Shares</string>
-    <string name="feature_share_account_terms_default_savings_account">Default Savings Account</string>
-    <string name="feature_share_account_terms_application_date">Application Date</string>
-    <string name="feature_share_account_terms_allow_dividends">Allow dividends for inactive clients</string>
-    <string name="feature_share_account_terms_min_active_period">Minimum Active Period</string>
-    <string name="feature_share_account_terms_frequency">Frequency</string>
-    <string name="feature_share_account_terms_type">Type</string>
-    <string name="feature_share_account_terms_lock_in_period">Lock-in Period</string>
+    
+    <string name="client_share_accounts_share_accounts">Akaunti za Hisa</string>
+    <string name="client_share_accounts_an_error_occurred">Hitilafu imetokea</string>
+    <string name="client_share_accounts_failed_to_fetch_share_accounts">Imeshindikana kupata akaunti za hisa</string>
+    <string name="client_share_accounts_try_again">Jaribu tena</string>
 
-    <string name="feature_share_account_charge">Charge</string>
-    <string name="feature_share_account_charge_add_new">Add New</string>
-    <string name="feature_share_account_charge_view">View</string>
-    <string name="feature_share_account_charge_active_charge">Active Charge</string>
-    <string name="feature_share_account_charge_add_new_charge">Add New Charge</string>
-    <string name="feature_share_account_charge_date">Date</string>
-    <string name="feature_share_account_charge_type">Type</string>
-    <string name="feature_share_account_charge_collected_on">Collected On</string>
-    <string name="feature_share_account_charge_view_charges">View Charges</string>
-    <string name="feature_share_account_charge_edit_charge">Edit Charge</string>
-    <string name="feature_share_account_charge_add">Add</string>
-    <string name="feature_share_account_charge_btn_add_new">Add</string>
-    <string name="feature_share_account_charge_click_on_add_new">Click on Add New to Add Charge</string>
+    
+    <string name="client_upcoming_charges_failed_message">Imeshindikana kupata tozo zijazo</string>
+    <string name="client_upcoming_charges_no_more_charges_available">Hakuna tozo zaidi!</string>
+    <string name="client_upcoming_charges_charges_overview">Muhtasari wa Tozo</string>
+
+    
+    <string name="client_identifier_title">Ongeza Vitambulisho</string>
+    <string name="client_identifier_document_type">Aina ya Waraka*</string>
+    <string name="client_identifier_status">Hali*</string>
+    <string name="client_identifier_document_key">Ufunguo wa Waraka*</string>
+    <string name="client_identifier_description">Maelezo</string>
+    <string name="client_identifier_document_name">Jina la Waraka*</string>
+    <string name="client_identifier_btn_create_new">Tengeneza Mpya</string>
+    <string name="client_identifier_btn_upload_new">Pakia Mpya</string>
+    <string name="client_identifier_btn_next">Endelea</string>
+    <string name="client_identifier_btn_back">Rudi</string>
+    <string name="client_identifier_btn_add">Ongeza</string>
+    <string name="client_identifier_btn_view">Tazama</string>
+    <string name="client_identifier_btn_submit">Tuma</string>
+    <string name="client_identifier_no_file_selected">Hakuna Faili Imechaguliwa</string>
+    <string name="client_identifier_document_not_found">Waraka haujapatikana</string>
+    <string name="client_identifier_btn_update">Sasisha</string>
+    <string name="client_update_document_title">Sasisha Waraka</string>
+    
+    <string name="title_new_fixed_deposit_account">Akaunti Mpya ya Amana</string>
+    <string name="title_new_recurring_deposit_account">Akaunti Mpya ya Amana za Mara kwa Mara</string>
+    
+    <string name="one_year_fixed_deposit">Amana ya Mwaka 1</string>
+    <string name="submission_on">Kuwasilisha Tarehe</string>
+    <string name="field_officer">Afisa wa Nyanjani</string>
 
 
-    <!-- Handle Error-->
-    <string name="feature_share_account_field_empty">This field cannot be empty</string>
+    
+    <string name="feature_share_account_details">Maelezo</string>
+    <string name="feature_share_account_terms">Masharti</string>
+    <string name="feature_share_account_charges">Tozo</string>
+    <string name="feature_share_account_preview">Hakiki</string>
+    <string name="feature_share_account_back">Rudi</string>
+    <string name="feature_share_account_next">Endelea</string>
+    <string name="feature_share_account_submit">Tuma</string>
+    <string name="feature_share_account_created_successfully">Akaunti ya hisa imetengenezwa</string>
 
-    <!-- Charges -->
-    <string name="charges_update">Update</string>
-    <string name="charges_view_charges">View Charges</string>
-    <string name="charges_client_update_not_support_error_msg">Updating client charges is not supported. Please delete the existing charge and create a new one.</string>
+    <string name="feature_share_account_detail_product_name">Jina la Bidhaa</string>
+    <string name="feature_share_account_detail_submission_date">Tarehe ya Kuwasilisha</string>
+    <string name="feature_share_account_detail_external_id">Kitambulisho cha Nje</string>
+    <string name="feature_share_account_detail_date_select">Chagua</string>
+    <string name="feature_share_account_detail_date_cancel">Ghairi</string>
 
-    <!--Fixed Deposit Account -->
-    <string name="feature_fixed_deposit_deposit_amount">Deposit Amount</string>
-    <string name="feature_fixed_deposit_deposit_period_type">Deposit Period Type</string>
-    <string name="feature_fixed_interest_compounding">Interest Compounding</string>
-    <string name="feature_fixed_interest_compounding_period">Interest Compounding Period</string>
-    <string name="feature_fixed_interest_posting_period">Interest Posting Period</string>
-    <string name="feature_fixed_interest_calculated_using">Interest Calculated Using</string>
-    <string name="feature_fixed_days_in_year">Days in year</string>
-    <string name="feature_fixed_deposit_terms_page">Terms</string>
-    <string name="feature_fixed_deposit_deposit_period">Deposit Period</string>
+    <string name="feature_share_account_terms_currency">Sarafu</string>
+    <string name="feature_share_account_terms_current_price">Bei ya Sasa</string>
+    <string name="feature_share_account_terms_total_shares">Jumla ya Hisa</string>
+    <string name="feature_share_account_terms_default_savings_account">Akaunti Kuu ya Akiba</string>
+    <string name="feature_share_account_terms_application_date">Tarehe ya Maombi</string>
+    <string name="feature_share_account_terms_allow_dividends">Ruhusu gawio kwa wateja wasio hai</string>
+    <string name="feature_share_account_terms_min_active_period">Kipindi cha Chini cha Uhai</string>
+    <string name="feature_share_account_terms_frequency">Marudio</string>
+    <string name="feature_share_account_terms_type">Aina</string>
+    <string name="feature_share_account_terms_lock_in_period">Kipindi cha Kufungiwa</string>
 
-    <string name="feature_fixed_deposit_setting_lock_in_period">Lock-in-Period</string>
-    <string name="feature_fixed_deposit_setting_frequency">Frequency</string>
-    <string name="feature_fixed_deposit_setting_type">Type</string>
-    <string name="feature_fixed_deposit_setting_minimum_deposit_term">Minimum Deposit Term</string>
-    <string name="feature_fixed_deposit_setting_thereafter_in_multiples">And thereafter, in Multiples of</string>
-    <string name="feature_fixed_deposit_setting_maximum_deposit_term">Maximum Deposit Term</string>
-    <string name="feature_fixed_deposit_setting_interest_transfer">Interest Transfer</string>
-    <string name="feature_fixed_deposit_setting_linked_saving_account">Transfer Interest to Linked Savings Account?</string>
-    <string name="feature_fixed_deposit_setting_maturity_instructions">Maturity Instructions</string>
-    <string name="feature_fixed_deposit_setting_investing_account">Investing Account</string>
-    <string name="feature_fixed_deposit_setting_pre_mature_closure">For Pre-mature closure</string>
-    <string name="feature_fixed_deposit_setting_apply_penal_interest">Apply Penal Interest (less)</string>
-    <string name="feature_fixed_deposit_setting_penal_interest">Penal Interest (%)</string>
-    <string name="feature_fixed_deposit_setting_period">Period</string>
-    <string name="feature_fixed_deposit_setting_linked_saving_account_field">Linked Saving Account</string>
+    <string name="feature_share_account_charge">Tozo</string>
+    <string name="feature_share_account_charge_add_new">Ongeza Mpya</string>
+    <string name="feature_share_account_charge_view">Tazama</string>
+    <string name="feature_share_account_charge_active_charge">Tozo Inayoendelea</string>
+    <string name="feature_share_account_charge_add_new_charge">Ongeza Tozo Mpya</string>
+    <string name="feature_share_account_charge_date">Tarehe</string>
+    <string name="feature_share_account_charge_type">Aina</string>
+    <string name="feature_share_account_charge_collected_on">Imekusanywa Tarehe</string>
+    <string name="feature_share_account_charge_view_charges">Tazama Tozo</string>
+    <string name="feature_share_account_charge_edit_charge">Hariri Tozo</string>
+    <string name="feature_share_account_charge_add">Ongeza</string>
+    <string name="feature_share_account_charge_btn_add_new">Ongeza</string>
+    <string name="feature_share_account_charge_click_on_add_new">Bonyeza Ongeza kuongeza Tozo</string>
 
-    <string name="feature_fixed_deposit_interest_name">Name</string>
-    <string name="feature_fixed_deposit_interest_valid_from_date">Valid From Date</string>
-    <string name="feature_fixed_deposit_interest_end_date">End Date</string>
-    <string name="feature_fixed_deposit_interest_description">Description</string>
-    <string name="feature_fixed_deposit_interest_grouping_by_amount">Grouping By Amount</string>
-    <string name="feature_fixed_deposit_interest_interest_rate_chart">INTEREST RATE CHART</string>
-    <string name="feature_fixed_deposit_interest_rate_chart">Rate Chart</string>
-    <string name="feature_fixed_deposit_interest_no_interest_chart">No Interest Rate Chart available</string>
-    <string name="feature_fixed_deposit_interest_yes">Yes</string>
-    <string name="feature_fixed_deposit_interest_no">No</string>
-    <string name="feature_fixed_deposit_interest_empty_date">Date Not Found</string>
-    <string name="feature_fixed_account_created_successfully">Share account created successfully</string>
 
-    <!-- Empty list handling -->
-    <string name="feature_share_account_empty_list_message">No Share Account Found</string>
-    <string name="feature_fixed_account_empty_list_message">No Fixed Deposit Account Found</string>
-    <string name="feature_recurring_account_empty_list_message">No Recurring Deposit Account Found</string>
-    <string name="feature_savings_account_empty_list_message">No Savings Account Found</string>
-    <string name="feature_loan_account_empty_list_message">No Loan Account Found</string>
+    
+    <string name="feature_share_account_field_empty">Kipengee hiki kisiachwe wazi</string>
 
-    <!-- Filters -->
-    <string name="feature_client_filters">Filters</string>
-    <string name="feature_client_account_status">Account Status</string>
-    <string name="feature_client_status_active">Active</string>
-    <string name="feature_client_status_closed">Closed</string>
-    <string name="feature_client_status_overpaid">Overpaid</string>
-    <string name="feature_client_status_waiting">Waiting for Disbursal</string>
-    <string name="feature_client_status_pending">Pending Approval</string>
+    
+    <string name="charges_update">Sasisha</string>
+    <string name="charges_view_charges">Tazama Tozo</string>
+    <string name="charges_client_update_not_support_error_msg">Kusasisha tozo za mteja hakuruhusiwi. Futa tozo iliyopo na ongeza mpya</string>
+
+    
+    <string name="feature_fixed_deposit_deposit_amount">Kiasi cha Amana</string>
+    <string name="feature_fixed_deposit_deposit_period_type">Aina ya Kipindi cha Amana</string>
+    <string name="feature_fixed_interest_compounding">Riba Mchanganyiko</string>
+    <string name="feature_fixed_interest_compounding_period">Kipindi cha Riba Mchanganyiko</string>
+    <string name="feature_fixed_interest_posting_period">Kipindi cha Kuweka Riba</string>
+    <string name="feature_fixed_interest_calculated_using">Riba Inahesabiwa Kwa</string>
+    <string name="feature_fixed_days_in_year">Siku kwa mwaka</string>
+    <string name="feature_fixed_deposit_terms_page">Masharti</string>
+    <string name="feature_fixed_deposit_deposit_period">Kipindi cha Amana</string>
+
+    <string name="feature_fixed_deposit_setting_lock_in_period">Kipindi cha Kufungiwa</string>
+    <string name="feature_fixed_deposit_setting_frequency">Marudio</string>
+    <string name="feature_fixed_deposit_setting_type">Aina</string>
+    <string name="feature_fixed_deposit_setting_minimum_deposit_term">Muda wa Chini wa Amana</string>
+    <string name="feature_fixed_deposit_setting_thereafter_in_multiples">Na baada ya hapo, kwa vizidisho vya</string>
+    <string name="feature_fixed_deposit_setting_maximum_deposit_term">Muda wa Juu wa Amana</string>
+    <string name="feature_fixed_deposit_setting_interest_transfer">Hamisha Riba</string>
+    <string name="feature_fixed_deposit_setting_linked_saving_account">Hamisha Riba kwenye Akaunti ya Akiba?</string>
+    <string name="feature_fixed_deposit_setting_maturity_instructions">Maelekezo ya Ukomavu</string>
+    <string name="feature_fixed_deposit_setting_investing_account">Akaunti ya Uwekezaji</string>
+    <string name="feature_fixed_deposit_setting_pre_mature_closure">Kwa kufunga kabla ya wakati</string>
+    <string name="feature_fixed_deposit_setting_apply_penal_interest">Tumia Riba ya Adhabu (chini)</string>
+    <string name="feature_fixed_deposit_setting_penal_interest">Riba ya Adhabu (%)</string>
+    <string name="feature_fixed_deposit_setting_period">Kipindi</string>
+    <string name="feature_fixed_deposit_setting_linked_saving_account_field">Akaunti ya Akiba Iliyounganishwa</string>
+
+    <string name="feature_fixed_deposit_interest_name">Jina</string>
+    <string name="feature_fixed_deposit_interest_valid_from_date">Inaanza Tarehe</string>
+    <string name="feature_fixed_deposit_interest_end_date">Tarehe ya Mwisho</string>
+    <string name="feature_fixed_deposit_interest_description">Maelezo</string>
+    <string name="feature_fixed_deposit_interest_grouping_by_amount">Kupanga kwa Kiasi</string>
+    <string name="feature_fixed_deposit_interest_interest_rate_chart">CHATI YA VIWANGO VYA RIBA</string>
+    <string name="feature_fixed_deposit_interest_rate_chart">Chati ya Viwango</string>
+    <string name="feature_fixed_deposit_interest_no_interest_chart">Hakuna chati ya viwango</string>
+    <string name="feature_fixed_deposit_interest_yes">Ndio</string>
+    <string name="feature_fixed_deposit_interest_no">Hapana</string>
+    <string name="feature_fixed_deposit_interest_empty_date">Tarehe Haijapatikana</string>
+    <string name="feature_fixed_account_created_successfully">Akaunti ya hisa imetengenezwa</string>
+
+    
+    <string name="feature_share_account_empty_list_message">Hakuna Akaunti ya Hisa</string>
+    <string name="feature_fixed_account_empty_list_message">Hakuna Akaunti ya Amana</string>
+    <string name="feature_recurring_account_empty_list_message">Hakuna Akaunti ya Amana za Mara kwa Mara</string>
+    <string name="feature_savings_account_empty_list_message">Hakuna Akaunti ya Akiba</string>
+    <string name="feature_loan_account_empty_list_message">Hakuna Akaunti ya Mkopo</string>
+
+    
+    <string name="feature_client_filters">Vichujio</string>
+    <string name="feature_client_account_status">Hali ya Akaunti</string>
+    <string name="feature_client_status_active">Hai</string>
+    <string name="feature_client_status_closed">Imefungwa</string>
+    <string name="feature_client_status_overpaid">Zidisho cha Malipo</string>
+    <string name="feature_client_status_waiting">Inasubiri Utoaji</string>
+    <string name="feature_client_status_pending">Inasubiri Idhini</string>
 
 </resources>
