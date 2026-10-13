@@ -272,6 +272,17 @@ private fun LoanRepaymentContent(
     val currencyCode = loanRepaymentTemplate.currency?.code
     val decimalPlaces = loanRepaymentTemplate.currency?.decimalPlaces
 
+    // The dropdown shows its label even with nothing chosen, which left the form
+    // silently invalid — preselect the first option (cash) so Review is usable.
+    LaunchedEffect(loanRepaymentTemplate.paymentTypeOptions) {
+        if (paymentType.isBlank()) {
+            loanRepaymentTemplate.paymentTypeOptions?.firstOrNull()?.let { first ->
+                paymentType = first.name
+                paymentTypeId = first.id
+            }
+        }
+    }
+
     if (showConfirmationSheet) {
         ConfirmationBottomSheet(
             onDismiss = { showConfirmationSheet = false },
