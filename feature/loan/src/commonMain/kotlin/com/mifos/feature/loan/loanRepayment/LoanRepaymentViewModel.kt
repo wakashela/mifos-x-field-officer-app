@@ -137,8 +137,10 @@ class LoanRepaymentViewModel(
                     )
             } catch (e: Exception) {
                 submitInFlight = false
+                // Reaching this catch means the server never confirmed the payment,
+                // so nothing was recorded — say so instead of a bare "failed".
                 _loanRepaymentUiState.value =
-                    LoanRepaymentUiState.ShowError(Res.string.feature_loan_payment_failed)
+                    LoanRepaymentUiState.ShowError(Res.string.feature_loan_payment_not_recorded)
             }
         }
     }

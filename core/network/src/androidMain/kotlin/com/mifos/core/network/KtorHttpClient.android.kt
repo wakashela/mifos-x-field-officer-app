@@ -23,6 +23,10 @@ import co.touchlab.kermit.Logger.Companion as KermitLogger
 
 actual val KtorHttpClient: HttpClient
     get() = HttpClient(OkHttp) {
+        // Without this, a 5xx body deserialises into the success model and the
+        // UI reports a payment as recorded when the server never received it.
+        expectSuccess = true
+
         install(HttpTimeout) {
             socketTimeoutMillis = 60_000
             requestTimeoutMillis = 60_000

@@ -765,4 +765,4 @@
     <string name="feature_loan_disburse_failed">Kutoa mkopo kumeshindikana</string>
     <string name="feature_loan_disburse_failed_to_load_template">Imeshindikana kupakia fomu ya utoaji</string>
     <string name="feature_loan_disburse_amount_greater_than_zero">Kiasi lazima kiwe zaidi ya 0</string>
-</resources>
+<string name="feature_loan_payment_not_recorded">Malipo hayakuweza kufikishwa kwa seva. Hakuna kilichorekodiwa — jaribu tena.</string></resources>

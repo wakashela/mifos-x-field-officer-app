@@ -765,4 +765,4 @@
     <string name="feature_loan_disburse_failed">Failed to disburse loan</string>
     <string name="feature_loan_disburse_failed_to_load_template">Failed to load disburse template</string>
     <string name="feature_loan_disburse_amount_greater_than_zero">Amount must be greater than 0</string>
-</resources>
+<string name="feature_loan_payment_not_recorded">Payment could not be sent to the server. Nothing was recorded — please try again.</string></resources>
