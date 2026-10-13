@@ -658,4 +658,4 @@
     <string name="feature_client_status_waiting">Inasubiri Utoaji</string>
     <string name="feature_client_status_pending">Inasubiri Idhini</string>
 
-<string name="client_loan_type_individual">Binafsi</string><string name="client_loan_type_group">Kikundi</string><string name="client_loan_type_jlg">JLG</string><string name="client_loan_type_glim">GLIM</string></resources>
+<string name="client_loan_type_individual">Binafsi</string><string name="client_loan_type_group">Kikundi</string><string name="client_loan_type_jlg">JLG</string><string name="client_loan_type_glim">GLIM</string><string name="feature_client_status">Hali</string></resources>

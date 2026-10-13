@@ -13,6 +13,10 @@ package com.mifos.feature.client.clientDetails
 
 import androidclient.feature.client.generated.resources.Res
 import androidclient.feature.client.generated.resources.feature_client
+import androidclient.feature.client.generated.resources.feature_client_status
+import androidclient.feature.client.generated.resources.feature_client_status_active
+import androidclient.feature.client.generated.resources.feature_client_status_closed
+import androidclient.feature.client.generated.resources.feature_client_status_pending
 import androidclient.feature.client.generated.resources.feature_client_account_number
 import androidclient.feature.client.generated.resources.feature_client_accounts
 import androidclient.feature.client.generated.resources.feature_client_activate_client
@@ -386,6 +390,20 @@ private fun MifosClientDetailsScreen(
                 icon = MifosIcons.Numbers,
                 field = stringResource(Res.string.feature_client_account_number),
                 value = it,
+            )
+        }
+        // A newly created client is held as Pending by maker-checker — say so,
+        // otherwise the officer assumes the client is already onboarded.
+        client?.status?.value?.let { status ->
+            MifosClientDetailsText(
+                icon = MifosIcons.Person,
+                field = stringResource(Res.string.feature_client_status),
+                value = when (status) {
+                    "Pending" -> stringResource(Res.string.feature_client_status_pending)
+                    "Closed" -> stringResource(Res.string.feature_client_status_closed)
+                    "Active" -> stringResource(Res.string.feature_client_status_active)
+                    else -> status
+                },
             )
         }
         client?.externalId?.let {

@@ -658,4 +658,4 @@
     <string name="feature_client_status_waiting">Waiting for Disbursal</string>
     <string name="feature_client_status_pending">Pending Approval</string>
 
-<string name="client_loan_type_individual">Individual</string><string name="client_loan_type_group">Group</string><string name="client_loan_type_jlg">JLG</string><string name="client_loan_type_glim">GLIM</string></resources>
+<string name="client_loan_type_individual">Individual</string><string name="client_loan_type_group">Group</string><string name="client_loan_type_jlg">JLG</string><string name="client_loan_type_glim">GLIM</string><string name="feature_client_status">Status</string></resources>
