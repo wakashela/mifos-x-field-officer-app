@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="feature_offline_nothing_to_sync">Hakuna Cha Kusawazisha :)</string>
+    <string name="feature_offline_nothing_to_sync">Hakuna cha kusawazisha</string>
     <string name="feature_offline_offline_Sync">Sawazisha Nje ya Mtandao *</string>
     <string name="feature_offline_sync_loanRepayments">Malipo ya Mikopo</string>
     <string name="feature_offline_sync_clients">Wateja</string>
