@@ -45,7 +45,7 @@
     <string name="feature_center_center_created_successfully">Kituo Kimetengenezwa</string>
 
     <string name="feature_center_failed_to_load_group_list">Imeshindikana kupakia Orodha ya Vikundi</string>
-    <string name="feature_center_active">Hai</string>
+    <string name="feature_center_active">Inaendelea</string>
     <string name="feature_center_inactive">Haitumiki</string>
     <string name="feature_center_groups">Vikundi</string>
     <string name="feature_center_no_group_list_to_show">Hakuna Orodha ya Vikundi</string>

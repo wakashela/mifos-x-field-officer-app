@@ -15,7 +15,7 @@
     <string name="feature_offline_gender">Jinsia</string>
     <string name="feature_offline_dob">Tarehe ya Kuzaliwa</string>
     <string name="feature_offline_activation_date">Tarehe ya Kuanzishwa</string>
-    <string name="feature_offline_active">Hai</string>
+    <string name="feature_offline_active">Haitumiki</string>
     <string name="feature_offline_error_not_connected_internet">Hakuna mtandao</string>
 
     <string name="feature_offline_sync_loanrepayment">Sawazisha Muamala wa Malipo</string>

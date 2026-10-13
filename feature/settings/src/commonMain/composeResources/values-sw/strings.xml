@@ -14,11 +14,11 @@
     <string name="feature_settings_theme">Mandhari</string>
     <string name="feature_settings_theme_desc">Chagua mandhari</string>
     <string name="feature_settings_change_passcode">Badilisha Namba ya Siri</string>
-    <string name="feature_settings_change_passcode_desc">Badilisha Namba ya Siri ya App</string>
+    <string name="feature_settings_change_passcode_desc">Badilisha namba ya siri ya programu</string>
     <string name="feature_settings_enable_biometrics">Wezesha alama</string>
     <string name="feature_settings_disable_biometrics">Zima alama</string>
     <string name="feature_settings_enable_disable_biometrics">Wezesha/Zima Alama</string>
-    <string name="feature_settings_enable_disable_biometrics_desc">Wezesha/Zima Alama</string>
+    <string name="feature_settings_enable_disable_biometrics_desc">Washa au zima alama za biometri kwa kuingia haraka na salama</string>
     <string name="feature_settings_biometrics_not_set">Alama hazijawekwa kwenye kifaa</string>
     <string name="feature_settings_biometrics_not_available">Alama hazipatikani kwenye kifaa</string>
     <string name="feature_settings_biometrics_registration_error">Hitilafu ya Usajili wa Alama</string>

@@ -32,7 +32,7 @@
     <string name="feature_groups_submit">Tuma</string>
     <string name="feature_groups_all_groups_synced">Vikundi vyote vimesawazishwa</string>
     <string name="feature_groups_no_group_payload_to_sync">Hakuna Taarifa za Vikundi za Kusawazisha</string>
-    <string name="feature_groups_active">Hai</string>
+    <string name="feature_groups_active">Inaendelea</string>
     <string name="feature_groups_error_group_name_cannot_be_empty">Jina la kikundi lisiachwe wazi</string>
     <string name="feature_groups_error_group_name_must_be_at_least_four_characters_long">Jina la kikundi liwe herufi 4 angalau</string>
     <string name="feature_groups_error_group_name_should_contain_only_alphabets">Jina la kikundi liwe herufi tu</string>

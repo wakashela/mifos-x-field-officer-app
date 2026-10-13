@@ -652,7 +652,7 @@
     
     <string name="feature_client_filters">Vichujio</string>
     <string name="feature_client_account_status">Hali ya Akaunti</string>
-    <string name="feature_client_status_active">Hai</string>
+    <string name="feature_client_status_active">Haitumiki</string>
     <string name="feature_client_status_closed">Imefungwa</string>
     <string name="feature_client_status_overpaid">Zidisho cha Malipo</string>
     <string name="feature_client_status_waiting">Inasubiri Utoaji</string>

@@ -162,7 +162,7 @@
     <string name="feature_loan_charge_off_no_reasons_available">Hakuna sababu</string>
     <string name="feature_loan_charge_off_please_select_reason">Tafadhali chagua sababu</string>
     <string name="feature_loan_charge_off_failed_to_load_charge_off_reasons">Hitilafu kupakia sababu, jaribu tena</string>
-    <string name="feature_loan_profile_status_active">Hai</string>
+    <string name="feature_loan_profile_status_active">Haitumiki</string>
     <string name="feature_loan_profile_status_pending">Inasubiri</string>
     <string name="feature_loan_profile_status_overpaid">Zidisho cha Malipo</string>
     <string name="feature_loan_profile_status_unknown">Haijulikani</string>
@@ -450,7 +450,7 @@
 
     <string name="feature_loan_status_pending_approval">Inasubiri Idhini</string>
     <string name="feature_loan_status_waiting_for_disbursal">Inasubiri Utoaji</string>
-    <string name="feature_loan_status_active">Hai</string>
+    <string name="feature_loan_status_active">Haitumiki</string>
     <string name="feature_loan_status_overpaid">Zidisho cha Malipo</string>
     <string name="feature_loan_status_closed_met">Imefungwa (Imelipwa Kikamilifu)</string>
     <string name="feature_loan_status_closed_written_off">Imefungwa (Deni Limefutwa)</string>
@@ -714,7 +714,7 @@
     <string name="feature_loan_pending_approval">Inasubiri Idhini</string>
     <string name="feature_loan_approved">Imeidhinishwa</string>
     <string name="feature_loan_withdrawn_by_applicant">Imetolewa na Mwombaji</string>
-    <string name="feature_loan_active">Hai</string>
+    <string name="feature_loan_active">Haitumiki</string>
     <string name="feature_loan_closed_overpaid">Imefungwa (Zidisho)</string>
     <string name="feature_loan_closed_obligations_met">Imefungwa (Imelipwa)</string>
     <string name="feature_loan_closed_written_off">Imefungwa (Deni Limefutwa)</string>
