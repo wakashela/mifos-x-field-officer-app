@@ -153,16 +153,16 @@ object DateHelper {
         return when (month) {
             1 -> "Jan"
             2 -> "Feb"
-            3 -> "Mar"
+            3 -> "Mac"
             4 -> "Apr"
-            5 -> "May"
+            5 -> "Mei"
             6 -> "Jun"
             7 -> "Jul"
-            8 -> "Aug"
+            8 -> "Ago"
             9 -> "Sep"
-            10 -> "Oct"
+            10 -> "Okt"
             11 -> "Nov"
-            12 -> "Dec"
+            12 -> "Des"
             else -> throw IllegalArgumentException("Month should be between 1 and 12")
         }
     }

@@ -29,9 +29,22 @@ sealed class DataState<out T> {
         val exception: Throwable,
         override val data: T? = null,
     ) : DataState<T>() {
-        val message = exception.message.toString()
+        val message = userMessage(exception)
     }
 }
+
+/**
+ * Serialization failures carry a raw JSON dump (e.g. a 403 error object where a
+ * list was expected) that must never reach a field officer's screen.
+ * shortcut: text is not localized because DataState is not @Composable; move to
+ * stringResource in the dialog if a translated version is ever needed.
+ */
+private fun userMessage(exception: Throwable): String =
+    if (exception is kotlinx.serialization.SerializationException) {
+        "The server response could not be read. Please try again."
+    } else {
+        exception.message.toString()
+    }
 
 fun <T> Flow<T>.asDataStateFlow(): Flow<DataState<T>> =
     map<T, DataState<T>> { DataState.Success(it) }

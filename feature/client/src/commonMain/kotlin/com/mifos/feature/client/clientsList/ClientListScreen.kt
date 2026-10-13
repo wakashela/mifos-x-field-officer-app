@@ -11,9 +11,12 @@ package com.mifos.feature.client.clientsList
 
 import androidclient.feature.client.generated.resources.Res
 import androidclient.feature.client.generated.resources.account_number_prefix
+import androidclient.feature.client.generated.resources.feature_client_clients
 import androidclient.feature.client.generated.resources.feature_client_failed_to_fetch_clients
 import androidclient.feature.client.generated.resources.feature_client_failed_to_more_clients
 import androidclient.feature.client.generated.resources.feature_client_no_more_clients_available
+import androidclient.feature.client.generated.resources.feature_client_status_active
+import androidclient.feature.client.generated.resources.feature_client_status_pending
 import androidclient.feature.client.generated.resources.string_not_available
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.clickable
@@ -147,7 +150,7 @@ private fun ClientActions(
                     horizontalArrangement = Arrangement.spacedBy(KptTheme.spacing.sm),
                 ) {
                     Text(
-                        text = "Clients",
+                        text = stringResource(Res.string.feature_client_clients),
                         style = MifosTypography.titleMediumEmphasized,
                         color = KptTheme.colorScheme.primary,
                     )
@@ -314,7 +317,12 @@ fun ClientItem(client: ClientEntity, byteArray: ByteArray?, onClientClick: (Int)
             client.status?.value?.let { status ->
                 add(
                     TextUtil(
-                        text = status,
+                        // server sends the raw enum value; label it for the field officer
+                        text = when (status) {
+                            "Active" -> stringResource(Res.string.feature_client_status_active)
+                            "Pending" -> stringResource(Res.string.feature_client_status_pending)
+                            else -> status
+                        },
                         style = MifosTypography.labelSmall,
                         color = when (status) {
                             "Active" -> AppColors.customEnable

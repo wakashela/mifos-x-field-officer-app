@@ -3,7 +3,7 @@
     <string name="feature_client_failed_to_load_client">Imeshindikana Kupakia Wateja</string>
     <string name="feature_client">Mteja</string>
     <string name="feature_client_failed_to_load_db_clients">Imeshindikana kupakia wateja wa kwenye kifaa</string>
-    <string name="feature_client_no_more_clients_available">Hakuna Wateja Wengine!</string>
+    <string name="feature_client_no_more_clients_available">Hakuna Wateja Zaidi</string>
 
     <string name="no_internet_message">Hakuna mtandao, Jaribu Tena</string>
 
