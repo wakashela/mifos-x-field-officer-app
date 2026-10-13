@@ -2,7 +2,7 @@
 <resources>
     <string name="feature_about">Kuhusu</string>
     <string name="feature_about_mifos_x_droid">MifosXDroid</string>
-    <string name="feature_about_app">Field Officer ni app</string>
+    <string name="feature_about_app">Programu ya Mkaguzi wa Mfano</string>
     <string name="feature_about_mifos">Imetengenezwa na wachangiaji wa Mifos</string>
     <string name="feature_about_app_version">Toleo la App 1.0.1</string>
     <string name="feature_about_website">Tovuti Rasmi</string>
