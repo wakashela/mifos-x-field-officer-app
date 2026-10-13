@@ -234,7 +234,7 @@ private fun loanTypeLabel(value: String?): String {
 private fun LoanAccountItem(    loan: LoanAccountEntity,
     onAction: (ClientLoanAccountsAction) -> Unit,
 ) {
-    val symbol = loan.currency?.displaySymbol.orEmpty()
+    val symbol = loan.currency?.displaySymbol ?: "TSh "
 
     val notAvailable =
         stringResource(Res.string.client_loan_accounts_not_available)

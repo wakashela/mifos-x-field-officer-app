@@ -36,6 +36,9 @@ import androidclient.feature.loan.generated.resources.feature_loan_transaction_a
 import androidclient.feature.loan.generated.resources.feature_loan_transaction_action_view_details
 import androidclient.feature.loan.generated.resources.feature_loan_transaction_action_view_journal_entries
 import androidclient.feature.loan.generated.resources.feature_loan_transaction_action_view_receipts
+import androidclient.feature.loan.generated.resources.feature_loan_transaction_accrual
+import androidclient.feature.loan.generated.resources.feature_loan_transaction_disbursement
+import androidclient.feature.loan.generated.resources.feature_loan_transaction_repayment
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
@@ -557,9 +560,8 @@ private fun TransactionRow(
         row.office,
         row.externalId,
         row.transactionDate,
-        row.transactionType.value,
-        row.amount,
-        row.principal,
+        transactionTypeLabel(row.transactionType.value),
+        row.amount,        row.principal,
         row.interest,
         row.fees,
         row.penalties,
@@ -746,4 +748,13 @@ private fun PreviewLoanTransactions(
         state = state,
         onAction = {},
     )
+}
+
+/** Server sends English transaction type names; label the ones field staff see daily. */
+@Composable
+private fun transactionTypeLabel(value: String): String = when (value) {
+    "Disbursement" -> stringResource(Res.string.feature_loan_transaction_disbursement)
+    "Repayment" -> stringResource(Res.string.feature_loan_transaction_repayment)
+    "Accrual" -> stringResource(Res.string.feature_loan_transaction_accrual)
+    else -> value
 }

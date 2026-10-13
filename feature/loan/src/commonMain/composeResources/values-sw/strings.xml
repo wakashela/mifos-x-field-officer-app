@@ -477,7 +477,7 @@
     <string name="feature_loan_transaction_contra">Contra</string>
     <string name="feature_loan_transaction_waive_interest">Samehe Riba</string>
     <string name="feature_loan_transaction_waive_charges">Samehe Tozo</string>
-    <string name="feature_loan_transaction_accrual">Accrual</string>
+    <string name="feature_loan_transaction_accrual">Riba Iliyokodwa</string>
     <string name="feature_loan_transaction_write_off">Futa Deni</string>
     <string name="feature_loan_transaction_recovery_repayment">Malipo ya Urejeshaji</string>
     <string name="feature_loan_transaction_initiate_transfer">Anzisha Uhamisho</string>

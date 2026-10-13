@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-    Copyright 2024 Mifos Initiative
-
-    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
-    If a copy of the MPL was not distributed with this file,
-    You can obtain one at https://mozilla.org/MPL/2.0/.
-
-    See https://github.com/openMF/mifos-x-field-officer-app/blob/master/LICENSE.md
--->
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="feature_loan_application">Loan Application</string>
     <string name="feature_loan_account_created_successfully">Loan account created successfully</string>
@@ -202,7 +193,7 @@
     <string name="feature_loan_break_down">Break Down</string>
     <string name="feature_loan_outstanding_balance">Outstanding Balance</string>
 
-    <!-- Loan Transactions Table Headers -->
+    
     <string name="feature_loan_table_header_number">#</string>
     <string name="feature_loan_table_header_transaction_id">ID</string>
     <string name="feature_loan_table_header_office">Office</string>
@@ -277,10 +268,10 @@
 
     <string name="feature_loan_general_value_unassigned">Unassigned</string>
 
-    <!-- New Loan Account -->
+    
     <string name="new_loan_account_title">New Loan Account</string>
 
-    <!-- Details Page -->
+    
     <string name="product_name">Product Name</string>
     <string name="external_id">External ID</string>
     <string name="loan_officer">Loan Officer</string>
@@ -294,20 +285,20 @@
     <string name="back">Back</string>
     <string name="next">Next</string>
 
-    <!-- Stepper -->
+    
     <string name="step_details">Details</string>
     <string name="step_terms">Terms</string>
     <string name="step_charges">Charges</string>
     <string name="step_schedule">Schedule</string>
     <string name="step_preview">Preview</string>
 
-    <!-- Collateral Dialog -->
+    
     <string name="add_new_collateral">Add New Collateral</string>
     <string name="view_collaterals">View Collaterals</string>
     <string name="add">Add</string>
     <string name="add_new">Add New</string>
 
-    <!-- Collateral Fields -->
+    
     <string name="collateral">Collateral</string>
     <string name="quantity">Quantity</string>
     <string name="total_value">Total Value</string>
@@ -364,7 +355,7 @@
     <string name="click_on_add_new">Click on Add New to Add Charge</string>
 
 
-    <!-- Repayment Schedule -->
+    
     <string name="principal_paid_off">Principal Paid Off</string>
     <string name="installment_paid">Installment Paid</string>
     <string name="installment_left">Installment Left</string>
@@ -392,7 +383,7 @@
     <string name="feature_loan_export_pdf_error">Failed to export PDF. Please try again.</string>
     <string name="feature_loan_export_pdf_error_title">Export Failed</string>
 
-    <!-- Repayment Schedule Table Columns -->
+    
     <string name="feature_loan_days">Days</string>
     <string name="feature_loan_paid_date">Paid Date</string>
     <string name="feature_loan_in_advance">In Advance</string>
@@ -407,7 +398,7 @@
     <string name="feature_loan_paid_short">Paid</string>
     <string name="feature_loan_balance_of_loan">Balance Of Loan</string>
     <string name="feature_loan_principal_due">Principal Due</string>
-    <!--    Apply new loan Preview screen-->
+    
     <string name="loan_new_loan_on_principal_payment">On principal payment</string>
     <string name="loan_new_loan_on_interest_payment">On interest payment</string>
     <string name="loan_new_loan_on_arrears_aging">On Arrears Aging</string>
@@ -446,7 +437,7 @@
     <string name="loan_new_loan_view">View</string>
     <string name="loan_new_loan_active_charges">Active Charges</string>
 
-    <!-- Loan dashboard Screen -->
+    
     <string name="feature_loan_dashboard">Dashboard</string>
 
     <string name="feature_loan_loan_account_number">Account Number</string>
@@ -534,8 +525,8 @@
     <string name="feature_loan_button_reject">Reject</string>
     <string name="feature_loan_button_reapply">Re-apply</string>
 
-    <!-- Handle Error-->
-    <!-- Amount Transfer-->
+    
+    
     <string name="field_empty">This field cannot be empty</string>
     <string name="feature_loan_applicant_name">Applicant name</string>
     <string name="feature_loan_from_account">From Account</string>
@@ -562,7 +553,7 @@
     <string name="feature_loan_transfer_success">Transfer completed successfully</string>
     <string name="feature_loan_transfer_go_back">Go Back</string>
 
-    <!-- Loan Actions-->
+    
     <string name="feature_loan_profile_open_actions">Open loan actions</string>
     <string name="feature_loan_header_actions">ACTIONS</string>
     <string name="feature_loan_header_payments">PAYMENTS</string>
@@ -729,7 +720,7 @@
     <string name="feature_loan_closed_written_off">Closed (Written Off)</string>
     <string name="feature_loan_closed_rescheduled">Closed (Rescheduled)</string>
     <string name="feature_loan_rejected">Rejected</string>
-    <string name="feature_loan_unknown">Unknown</string>">
+    <string name="feature_loan_unknown">Unknown</string>"&gt;
     <string name="feature_loan_create_guarantor_title">Create Guarantor</string>
     <string name="feature_loan_create_guarantor_existing_client">Existing Client</string>
     <string name="feature_loan_create_guarantor_name">Name</string>
