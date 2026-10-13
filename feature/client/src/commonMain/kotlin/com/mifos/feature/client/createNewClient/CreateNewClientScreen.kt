@@ -750,6 +750,7 @@ private fun handleSubmitClick(
             clientNames.middleName,
             clientNames.lastName,
             addressTypeId = addressTypeId,
+            isAddressEnabled = isAddressEnabled,
         )
     ) {
         return
@@ -1170,6 +1171,7 @@ private fun isAllFieldsValid(
     middleName: String,
     lastName: String,
     addressTypeId: Int,
+    isAddressEnabled: Boolean,
 ): Boolean {
     return when {
         !isFirstNameValid(
@@ -1188,7 +1190,9 @@ private fun isAllFieldsValid(
             false
         }
 
-        !isAddressTypeIdValid(addressTypeId, scope, snackbarHostState) -> {
+        // the address block is only rendered when the server has enable-address on,
+        // so skip its validation when it is off or client creation can never succeed
+        isAddressEnabled && !isAddressTypeIdValid(addressTypeId, scope, snackbarHostState) -> {
             false
         }
 
