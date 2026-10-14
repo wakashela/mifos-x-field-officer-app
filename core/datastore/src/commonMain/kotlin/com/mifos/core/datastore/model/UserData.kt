@@ -25,7 +25,9 @@ data class UserData(
             themeBrand = ThemeBrand.DEFAULT,
             darkThemeConfig = DarkThemeConfig.FOLLOW_SYSTEM,
             useDynamicColor = false,
-            language = MifosAppLanguage.SYSTEM_LANGUAGE,
+            // Kijazi & Mwanga officers work in Kiswahili; following the phone
+            // locale put an English app in front of every fresh install.
+            language = MifosAppLanguage.SWAHILI,
             userStatus = false,
         )
     }

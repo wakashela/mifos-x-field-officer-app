@@ -16,6 +16,10 @@ import androidclient.feature.client.generated.resources.client_classification
 import androidclient.feature.client.generated.resources.client_type
 import androidclient.feature.client.generated.resources.date_of_birth
 import androidclient.feature.client.generated.resources.external_id
+import androidclient.feature.client.generated.resources.feature_client_status
+import androidclient.feature.client.generated.resources.feature_client_status_active
+import androidclient.feature.client.generated.resources.feature_client_status_pending
+import androidclient.feature.client.generated.resources.feature_client_status_closed
 import androidclient.feature.client.generated.resources.gender
 import androidclient.feature.client.generated.resources.legal_form
 import androidclient.feature.client.generated.resources.office
@@ -171,6 +175,16 @@ internal class ClientProfileDetailsViewModel(
             Res.string.external_id to (
                 client.externalId?.takeIf { it.isNotBlank() }
                     ?: getString(Res.string.string_not_available)
+                ),
+            // An unapproved client is Pending, not onboarded — say which, in the
+            // officer's language, instead of hiding the fact.
+            Res.string.feature_client_status to (
+                when (client.status?.value) {
+                    "Active" -> getString(Res.string.feature_client_status_active)
+                    "Pending" -> getString(Res.string.feature_client_status_pending)
+                    "Closed" -> getString(Res.string.feature_client_status_closed)
+                    else -> getString(Res.string.string_not_available)
+                }
                 ),
         )
 
