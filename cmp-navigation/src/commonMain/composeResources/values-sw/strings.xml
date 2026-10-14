@@ -2,7 +2,7 @@
 <resources>
     <string name="cmp_navigation_no_internet">Huna mtandao!</string>
 
-    <string name="cmp_navigation_mifos">Mifos</string>
+    <string name="cmp_navigation_mifos">Kijazi &amp; Mwanga</string>
     <string name="cmp_navigation_search">Tafuta</string>
     <string name="cmp_navigation_clients">Wateja</string>
     <string name="cmp_navigation_center">Vituo</string>
