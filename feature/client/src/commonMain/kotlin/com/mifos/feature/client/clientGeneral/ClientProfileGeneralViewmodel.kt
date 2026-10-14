@@ -110,8 +110,11 @@ internal class ClientProfileGeneralViewmodel(
                         val performanceHistory = loadPerformanceHistory(result.data)
                         mutableStateFlow.update {
                             it.copy(
-                                currency = result.data.clientAccounts?.savingsAccounts?.firstOrNull()?.currency?.displaySymbol
-                                    ?: "$",
+                                // Tanzanian shillings have no display_symbol on the server, so fall back to
+                                // the currency code rather than showing a dollar sign.
+                                currency = result.data.clientAccounts?.savingsAccounts?.firstOrNull()?.currency
+                                    ?.let { it.displaySymbol ?: it.code }
+                                    ?: "TSh",
                                 client = result.data.client,
                                 performanceHistory = performanceHistory,
                                 dialogState = null,

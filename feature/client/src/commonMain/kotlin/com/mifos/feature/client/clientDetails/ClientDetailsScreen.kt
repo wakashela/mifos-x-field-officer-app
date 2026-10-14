@@ -337,6 +337,9 @@ internal fun ClientDetailsScreen(
                     onClick = {
                         showSelectImageDialog = true
                     },
+                    // reuse the instance the details were loaded into, otherwise the
+                    // rows below render with an empty ViewModel
+                    clientDetailsViewModel = clientDetailsViewModel,
                 )
             }
         }

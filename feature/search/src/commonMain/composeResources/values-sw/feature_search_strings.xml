@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2024 Mifos Initiative
+
+    This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0.
+    If a copy of the MPL was not distributed with this file,
+    You can obtain one at https://mozilla.org/MPL/2.0/.
+
+    See https://github.com/openMF/mifos-x-field-officer-app/blob/master/LICENSE.md
+-->
+<resources>
+    <string name="feature_search_title">Tafuta</string>
+    <string name="feature_search_filter">Chuja Tafuta</string>
+    <string name="feature_search_search_hint">Jina, Namba ya Akaunti au Kitambulisho cha Nje</string>
+    <string name="feature_search_no_search_result_found">Hakuna matokeo yaliyopatikana</string>
+    <string name="feature_search_no_search_query_entered">Hakuna neno lililowingizwa!</string>
+    <string name="feature_search_exact_match">Linganisha Halisi</string>
+    <string name="feature_search_empty_input_field">Weka Jina, Namba ya Akaunti au Kitambulisho cha Nje ili kutafuta</string>
+
+    <string name="feature_search_search_options_clients_label">Wateja</string>
+    <string name="feature_search_apply">Tuma</string>
+    <string name="feature_search_close">Funga</string>
+    <string name="feature_search_all">Zote</string>
+
+    <string name="feature_search_filter_options_clients_label">Wateja</string>
+    <string name="feature_search_filter_options_groups_label">Vikundi</string>
+    <string name="feature_search_filter_options_centers_label">Vituo</string>
+    <string name="feature_search_filter_options_loans_label">Akaunti za Mikopo</string>
+    <string name="feature_search_filter_options_savings_label">Akaunti za Akiba</string>
+</resources>
