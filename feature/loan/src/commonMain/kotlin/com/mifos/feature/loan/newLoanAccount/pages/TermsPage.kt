@@ -118,7 +118,7 @@ import kotlin.time.ExperimentalTime
 // officer the localized label while the ViewModel keeps the raw id.
 @Composable
 private fun mapServerFrequencyLabel(value: String?): String {
-    when (value?.uppercase()) {
+    return when (value?.uppercase()) {
         "DAYS" -> stringResource(Res.string.feature_loan_frequency_days)
         "WEEKS" -> stringResource(Res.string.feature_loan_frequency_weeks)
         "MONTHS" -> stringResource(Res.string.feature_loan_frequency_months)
