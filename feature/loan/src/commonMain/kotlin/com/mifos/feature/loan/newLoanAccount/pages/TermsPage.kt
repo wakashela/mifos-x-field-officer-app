@@ -19,7 +19,23 @@ import androidclient.feature.loan.generated.resources.calculate_interest_partial
 import androidclient.feature.loan.generated.resources.collateral_count
 import androidclient.feature.loan.generated.resources.collateral_data
 import androidclient.feature.loan.generated.resources.feature_loan_cancel
+import androidclient.feature.loan.generated.resources.feature_loan_frequency_days
+import androidclient.feature.loan.generated.resources.feature_loan_frequency_months
+import androidclient.feature.loan.generated.resources.feature_loan_frequency_quarters
+import androidclient.feature.loan.generated.resources.feature_loan_frequency_weeks
+import androidclient.feature.loan.generated.resources.feature_loan_frequency_years
+import androidclient.feature.loan.generated.resources.feature_loan_nth_first
+import androidclient.feature.loan.generated.resources.feature_loan_nth_fourth
+import androidclient.feature.loan.generated.resources.feature_loan_nth_second
+import androidclient.feature.loan.generated.resources.feature_loan_nth_third
 import androidclient.feature.loan.generated.resources.feature_loan_select
+import androidclient.feature.loan.generated.resources.feature_loan_weekday_friday
+import androidclient.feature.loan.generated.resources.feature_loan_weekday_monday
+import androidclient.feature.loan.generated.resources.feature_loan_weekday_saturday
+import androidclient.feature.loan.generated.resources.feature_loan_weekday_sunday
+import androidclient.feature.loan.generated.resources.feature_loan_weekday_thursday
+import androidclient.feature.loan.generated.resources.feature_loan_weekday_tuesday
+import androidclient.feature.loan.generated.resources.feature_loan_weekday_wednesday
 import androidclient.feature.loan.generated.resources.first_repayment_date
 import androidclient.feature.loan.generated.resources.grace_on_interest_payment
 import androidclient.feature.loan.generated.resources.grace_on_principal_payment
@@ -97,6 +113,31 @@ import org.jetbrains.compose.resources.stringResource
 import template.core.base.designsystem.theme.KptTheme
 import kotlin.time.Clock
 import kotlin.time.ExperimentalTime
+
+// Server sends English enum values (Months, MONDAY, first…); show the
+// officer the localized label while the ViewModel keeps the raw id.
+@Composable
+private fun mapServerFrequencyLabel(value: String?): String {
+    when (value?.uppercase()) {
+        "DAYS" -> stringResource(Res.string.feature_loan_frequency_days)
+        "WEEKS" -> stringResource(Res.string.feature_loan_frequency_weeks)
+        "MONTHS" -> stringResource(Res.string.feature_loan_frequency_months)
+        "QUARTERS" -> stringResource(Res.string.feature_loan_frequency_quarters)
+        "YEARS" -> stringResource(Res.string.feature_loan_frequency_years)
+        "FIRST" -> stringResource(Res.string.feature_loan_nth_first)
+        "SECOND" -> stringResource(Res.string.feature_loan_nth_second)
+        "THIRD" -> stringResource(Res.string.feature_loan_nth_third)
+        "FOURTH" -> stringResource(Res.string.feature_loan_nth_fourth)
+        "MONDAY" -> stringResource(Res.string.feature_loan_weekday_monday)
+        "TUESDAY" -> stringResource(Res.string.feature_loan_weekday_tuesday)
+        "WEDNESDAY" -> stringResource(Res.string.feature_loan_weekday_wednesday)
+        "THURSDAY" -> stringResource(Res.string.feature_loan_weekday_thursday)
+        "FRIDAY" -> stringResource(Res.string.feature_loan_weekday_friday)
+        "SATURDAY" -> stringResource(Res.string.feature_loan_weekday_saturday)
+        "SUNDAY" -> stringResource(Res.string.feature_loan_weekday_sunday)
+        else -> value ?: ""
+    }
+}
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalTime::class)
 @Composable
@@ -226,14 +267,13 @@ fun TermsPage(
                 value = if (state.termFrequencyIndex == -1) {
                     ""
                 } else {
-                    state.loanTemplate?.termFrequencyTypeOptions[state.termFrequencyIndex]?.value
-                        ?: ""
+                    mapServerFrequencyLabel(state.loanTemplate?.termFrequencyTypeOptions[state.termFrequencyIndex]?.value ?: "")
                 },
                 onValueChanged = {},
                 onOptionSelected = { index, value ->
                     onAction(NewLoanAccountAction.OnTermFrequencyIndexChange(index))
                 },
-                options = state.loanTemplate?.termFrequencyTypeOptions?.map { it.value ?: "" }
+                options = state.loanTemplate?.termFrequencyTypeOptions?.map { mapServerFrequencyLabel(it.value) ?: "" }
                     ?: emptyList(),
                 label = stringResource(Res.string.term_frequency),
             )
@@ -292,14 +332,13 @@ fun TermsPage(
                 value = if (state.termFrequencyIndex == -1) {
                     ""
                 } else {
-                    state.loanTemplate?.termFrequencyTypeOptions[state.termFrequencyIndex]?.value
-                        ?: ""
+                    mapServerFrequencyLabel(state.loanTemplate?.termFrequencyTypeOptions[state.termFrequencyIndex]?.value ?: "")
                 },
                 onValueChanged = {},
                 onOptionSelected = { index, value ->
                     onAction(NewLoanAccountAction.OnTermFrequencyIndexChange(index))
                 },
-                options = state.loanTemplate?.termFrequencyTypeOptions?.map { it.value ?: "" }
+                options = state.loanTemplate?.termFrequencyTypeOptions?.map { mapServerFrequencyLabel(it.value) ?: "" }
                     ?: emptyList(),
                 label = stringResource(Res.string.repayment_frequency),
                 readOnly = true,
@@ -314,16 +353,14 @@ fun TermsPage(
                     value = if (state.selectedOnIndex == -1) {
                         ""
                     } else {
-                        state.loanTemplate?.repaymentFrequencyNthDayTypeOptions[state.selectedOnIndex]?.value
-                            ?: ""
+                        mapServerFrequencyLabel(state.loanTemplate?.repaymentFrequencyNthDayTypeOptions[state.selectedOnIndex]?.value ?: "")
                     },
                     onValueChanged = {},
                     onOptionSelected = { index, value ->
                         onAction(NewLoanAccountAction.OnSelectedOnIndexChange(index))
                     },
-                    options = state.loanTemplate?.repaymentFrequencyNthDayTypeOptions?.map {
-                        it.value ?: ""
-                    } ?: emptyList(),
+                    options = state.loanTemplate?.repaymentFrequencyNthDayTypeOptions?.map { mapServerFrequencyLabel(it.value) ?: "" }
+                        ?: emptyList(),
                     label = stringResource(Res.string.select_on),
                 )
 
@@ -331,16 +368,14 @@ fun TermsPage(
                     value = if (state.selectedDayIndex == -1) {
                         ""
                     } else {
-                        state.loanTemplate?.repaymentFrequencyDaysOfWeekTypeOptions[state.selectedDayIndex]?.value
-                            ?: ""
+                        mapServerFrequencyLabel(state.loanTemplate?.repaymentFrequencyDaysOfWeekTypeOptions[state.selectedDayIndex]?.value ?: "")
                     },
                     onValueChanged = {},
                     onOptionSelected = { index, value ->
                         onAction(NewLoanAccountAction.OnSelectedDayIndexChange(index))
                     },
-                    options = state.loanTemplate?.repaymentFrequencyDaysOfWeekTypeOptions?.map {
-                        it.value ?: ""
-                    } ?: emptyList(),
+                    options = state.loanTemplate?.repaymentFrequencyDaysOfWeekTypeOptions?.map { mapServerFrequencyLabel(it.value) ?: "" }
+                        ?: emptyList(),
                     label = stringResource(Res.string.select_day),
                 )
 
