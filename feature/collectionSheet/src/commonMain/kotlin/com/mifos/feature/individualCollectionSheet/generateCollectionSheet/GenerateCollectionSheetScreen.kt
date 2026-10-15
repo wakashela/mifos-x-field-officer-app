@@ -94,6 +94,16 @@ internal fun GenerateCollectionSheetScreen(
     val collectionSheetState by viewModel.collectionSheet.collectAsStateWithLifecycle()
     val centerDetailsState by viewModel.centerDetails.collectAsStateWithLifecycle()
 
+    val snackbarHostState = remember { SnackbarHostState() }
+    val scope = rememberCoroutineScope()
+
+    // Show any error as a snackbar (catches errors from nested calls too)
+    LaunchedEffect(state) {
+        if (state is GenerateCollectionSheetUiState.Error) {
+            scope.launch { snackbarHostState.showSnackbar(message = state.message) }
+        }
+    }
+
     LaunchedEffect(Unit) {
         viewModel.loadOffices()
     }
@@ -103,8 +113,8 @@ internal fun GenerateCollectionSheetScreen(
         collectionSheetState = collectionSheetState,
         centerDetailsState = centerDetailsState,
         onBackPressed = onBackPressed,
-        onRetry = {
-        },
+        onRetry = { viewModel.loadOffices() },
+        snackbarHostState = snackbarHostState,
         officeList = officeList,
         staffList = staffList,
         centerList = centerList,
@@ -141,6 +151,7 @@ internal fun GenerateCollectionSheetScreen(
     centerDetailsState: List<CenterDetail>?,
     onBackPressed: () -> Unit,
     onRetry: () -> Unit,
+    snackbarHostState: SnackbarHostState,
     officeList: List<OfficeEntity>,
     staffList: List<StaffEntity>,
     centerList: List<CenterEntity>,
@@ -154,7 +165,6 @@ internal fun GenerateCollectionSheetScreen(
     modifier: Modifier = Modifier,
     submitCollectionSheet: (Int, CollectionSheetPayload) -> Unit,
 ) {
-    val snackbarHostState = remember { SnackbarHostState() }
     val scope = rememberCoroutineScope()
 
     MifosScaffold(

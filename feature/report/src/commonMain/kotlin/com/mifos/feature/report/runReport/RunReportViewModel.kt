@@ -46,7 +46,9 @@ class RunReportViewModel(
 
                 is DataState.Success -> {
                     if (result.data.isNotEmpty()) {
-                        _runReportUiState.value = RunReportUiState.RunReports(result.data)
+                        // Server returns one row per report-parameter pair → dedupe by reportId
+                        val deduped = result.data.distinctBy { it.reportId ?: 0 }
+                        _runReportUiState.value = RunReportUiState.RunReports(deduped)
                     } else {
                         _runReportUiState.value =
                             RunReportUiState.Error(Res.string.feature_report_no_reports_found)

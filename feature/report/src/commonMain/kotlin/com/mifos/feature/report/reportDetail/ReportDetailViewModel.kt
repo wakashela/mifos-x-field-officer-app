@@ -82,9 +82,10 @@ class ReportDetailViewModel(
 
                     is DataState.Loading -> _reportDetailUiState.value = ReportDetailUiState.Loading
 
-                    is DataState.Success ->
-                        _reportParameterList.value =
-                            result.data.data
+                    is DataState.Success -> {
+                        _reportParameterList.value = result.data.data
+                        _reportDetailUiState.value = ReportDetailUiState.ParameterDetailsSuccess
+                    }
                 }
             }
         }
