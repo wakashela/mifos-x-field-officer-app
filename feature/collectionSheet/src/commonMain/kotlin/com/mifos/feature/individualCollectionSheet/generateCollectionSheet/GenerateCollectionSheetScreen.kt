@@ -98,9 +98,10 @@ internal fun GenerateCollectionSheetScreen(
     val scope = rememberCoroutineScope()
 
     // Show any error as a snackbar (catches errors from nested calls too)
-    LaunchedEffect(state) {
-        if (state is GenerateCollectionSheetUiState.Error) {
-            scope.launch { snackbarHostState.showSnackbar(message = state.message) }
+    val currentState = state
+    LaunchedEffect(currentState) {
+        if (currentState is GenerateCollectionSheetUiState.Error) {
+            scope.launch { snackbarHostState.showSnackbar(message = currentState.message) }
         }
     }
 
